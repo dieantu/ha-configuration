@@ -1,6 +1,6 @@
 ![GitHub](https://img.shields.io/github/license/dieantu/ha-configuration?style=flat-square)
 ![GitHub top language](https://img.shields.io/github/languages/top/dieantu/ha-configuration)
-[![Home Assistant CI](https://github.com/dieantu/ha-configuration/actions/workflows/home-assistant.yml/badge.svg)](https://github.com/dieantu/ha-configuration/actions/workflows/home-assistant.yml)
+[![Home Assistant CI](https://github.com/dieantu/ha-configuration/actions/workflows/homeassistant.yml/badge.svg)](https://github.com/dieantu/ha-configuration/actions/workflows/homeassistant.yml)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/dieantu/ha-configuration)
 
 ## Antu's Home Configuration
