@@ -3,7 +3,7 @@
 # Default configuration of Home-Assistant
 
 automation: !include ../../automations.yaml
-  
+
 # The Home Assistant Cloud allows you to quickly integrate your local Home
 # Assistant with various cloud services like Amazon Alexa and Google Assistant.
 # Learn more https://www.home-assistant.io/integrations/cloud/
@@ -25,13 +25,13 @@ dhcp:
 # energy management feature. Gain new insights, optimize your solar panel
 # production, plan energy usage and save money.
 # Learn more https://www.home-assistant.io/docs/energy
-#energy:
+# energy:
 
 # This offers the official frontend to control Home Assistant.
 # Learn more https://www.home-assistant.io/integrations/frontend/
 frontend:
 
-# The history integration will track everything that is going on within Home 
+# The history integration will track everything that is going on within Home
 # Assistant and allows the user to browse through it.
 # Learn more https://www.home-assistant.io/integrations/history/
 history:
@@ -66,7 +66,7 @@ mobile_app:
 # Learn more https://www.home-assistant.io/integrations/my/
 my:
 
-# The person integration allows connecting device tracker entities to one or 
+# The person integration allows connecting device tracker entities to one or
 # more person entities.
 # Learn more https://www.home-assistant.io/integrations/person/
 person:
