@@ -21,12 +21,12 @@ automations:
             entity_id: switch.aqara_interruptor
             domain: switch
         then:
-        - type: turn_on
-          device_id: 4f71970270d5e8a6fc3910b7b8ba79cc
-          entity_id: light.innr_gu10_1
-          domain: light
-          brightness_pct: 100
-          flash: short
+          - type: turn_on
+            device_id: 4f71970270d5e8a6fc3910b7b8ba79cc
+            entity_id: light.innr_gu10_1
+            domain: light
+            brightness_pct: 100
+            flash: short
       - type: turn_on
         device_id: fade6d3ff1954ba211c32cdbd13e68a2
         entity_id: light.innr_gu10_2
@@ -67,11 +67,11 @@ automations:
           event: 5002
     action:
       - if:
-        - condition: device
-          type: is_on
-          device_id: 4b2d6ee879d061eceb9aed86f70bc307
-          entity_id: switch.aqara_interruptor
-          domain: switch
+          - condition: device
+            type: is_on
+            device_id: 4b2d6ee879d061eceb9aed86f70bc307
+            entity_id: switch.aqara_interruptor
+            domain: switch
         then:
         - type: turn_off
           device_id: fade6d3ff1954ba211c32cdbd13e68a2
@@ -88,29 +88,29 @@ automations:
         flash: short
         brightness_pct: 5
         else:
-        - type: turn_off
-          device_id: fade6d3ff1954ba211c32cdbd13e68a2
-          entity_id: light.innr_gu10_2
-          domain: light
-        - type: turn_off
-          device_id: 1c853f3ffad5ac989bd743f90d763478
-          entity_id: light.innr_gu10_3
-          domain: light
-        - type: turn_on
-          device_id: 4f71970270d5e8a6fc3910b7b8ba79cc
-          entity_id: light.innr_gu10_1
-          domain: light
-          brightness_pct: 5
-          flash: short
+          - type: turn_off
+            device_id: fade6d3ff1954ba211c32cdbd13e68a2
+            entity_id: light.innr_gu10_2
+            domain: light
+          - type: turn_off
+            device_id: 1c853f3ffad5ac989bd743f90d763478
+            entity_id: light.innr_gu10_3
+            domain: light
+          - type: turn_on
+            device_id: 4f71970270d5e8a6fc3910b7b8ba79cc
+            entity_id: light.innr_gu10_1
+            domain: light
+            brightness_pct: 5
+            flash: short
     mode: single
 
   # Left Button
   - id: 'devices_command_ikea_left'
     alias: Devices - command_ikea - Left
     trigger:
-    - platform: event
-      event_type: deconz_event
-      event_data:
+      - platform: event
+        event_type: deconz_event
+        event_data:
         id: tradfri_remote_control
         event: 4002
     action:
@@ -121,35 +121,35 @@ automations:
         entity_id: switch.aqara_interruptor
         domain: switch
         then:
-        - type: turn_off
-          device_id: fade6d3ff1954ba211c32cdbd13e68a2
-          entity_id: light.innr_gu10_2
-          domain: light
-      - type: turn_off
-        device_id: 1c853f3ffad5ac989bd743f90d763478
-        entity_id: light.innr_gu10_3
-        domain: light
-      - type: turn_on
-        device_id: 4f71970270d5e8a6fc3910b7b8ba79cc
-        entity_id: light.innr_gu10_1
-        domain: light
-        flash: short
-        brightness_pct: 100
-        else:
-        - type: turn_off
-          device_id: fade6d3ff1954ba211c32cdbd13e68a2
-          entity_id: light.innr_gu10_2
-          domain: light
-      - type: turn_off
-        device_id: 1c853f3ffad5ac989bd743f90d763478
-        entity_id: light.innr_gu10_3
-        domain: light
-      - type: turn_on
-        device_id: 4f71970270d5e8a6fc3910b7b8ba79cc
-        entity_id: light.innr_gu10_1
-        domain: light
-        brightness_pct: 100
-        flash: short
+          - type: turn_off
+            device_id: fade6d3ff1954ba211c32cdbd13e68a2
+            entity_id: light.innr_gu10_2
+            domain: light
+          - type: turn_off
+            device_id: 1c853f3ffad5ac989bd743f90d763478
+            entity_id: light.innr_gu10_3
+            domain: light
+          - type: turn_on
+            device_id: 4f71970270d5e8a6fc3910b7b8ba79cc
+            entity_id: light.innr_gu10_1
+            domain: light
+            flash: short
+            brightness_pct: 100
+            else:
+          - type: turn_off
+            device_id: fade6d3ff1954ba211c32cdbd13e68a2
+            entity_id: light.innr_gu10_2
+            domain: light
+          - type: turn_off
+            device_id: 1c853f3ffad5ac989bd743f90d763478
+            entity_id: light.innr_gu10_3
+            domain: light
+          - type: turn_on
+            device_id: 4f71970270d5e8a6fc3910b7b8ba79cc
+            entity_id: light.innr_gu10_1
+            domain: light
+            brightness_pct: 100
+            flash: short
     mode: single
 
   # Upper Button
