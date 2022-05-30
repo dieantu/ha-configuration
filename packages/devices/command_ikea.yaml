@@ -73,20 +73,20 @@ automations:
             entity_id: switch.aqara_interruptor
             domain: switch
         then:
-        - type: turn_off
-          device_id: fade6d3ff1954ba211c32cdbd13e68a2
-          entity_id: light.innr_gu10_2
-          domain: light
-      - type: turn_off
-        device_id: 1c853f3ffad5ac989bd743f90d763478
-        entity_id: light.innr_gu10_3
-        domain: light
-      - type: turn_on
-        device_id: 4f71970270d5e8a6fc3910b7b8ba79cc
-        entity_id: light.innr_gu10_1
-        domain: light
-        flash: short
-        brightness_pct: 5
+          - type: turn_off
+            device_id: fade6d3ff1954ba211c32cdbd13e68a2
+            entity_id: light.innr_gu10_2
+            domain: light
+          - type: turn_off
+            device_id: 1c853f3ffad5ac989bd743f90d763478
+            entity_id: light.innr_gu10_3
+            domain: light
+          - type: turn_on
+            device_id: 4f71970270d5e8a6fc3910b7b8ba79cc
+            entity_id: light.innr_gu10_1
+            domain: light
+            flash: short
+            brightness_pct: 5
         else:
           - type: turn_off
             device_id: fade6d3ff1954ba211c32cdbd13e68a2
