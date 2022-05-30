@@ -31,6 +31,7 @@ esphome
 appdaemon
 node-red
 custom_components
+blueprints
 
 # Ignore Extensions
 *.db
