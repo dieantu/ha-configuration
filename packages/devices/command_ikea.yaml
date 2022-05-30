@@ -2,7 +2,7 @@
 ## command_ikea ##
 # Automations for the command Ikea
 
-automations:
+automation:
 
   # Middle Button
   - id: 'devices_command_ikea_middle'
@@ -111,15 +111,15 @@ automations:
       - platform: event
         event_type: deconz_event
         event_data:
-        id: tradfri_remote_control
-        event: 4002
+          id: tradfri_remote_control
+          event: 4002
     action:
       - if:
-      - condition: device
-        type: is_on
-        device_id: 4b2d6ee879d061eceb9aed86f70bc307
-        entity_id: switch.aqara_interruptor
-        domain: switch
+        - condition: device
+          type: is_on
+          device_id: 4b2d6ee879d061eceb9aed86f70bc307
+          entity_id: switch.aqara_interruptor
+          domain: switch
         then:
           - type: turn_off
             device_id: fade6d3ff1954ba211c32cdbd13e68a2
@@ -159,8 +159,8 @@ automations:
       - platform: event
         event_type: deconz_event
         event_data:
-        id: tradfri_remote_control
-        event: 2002
+          id: tradfri_remote_control
+          event: 2002
     condition:
       - condition: device
         type: is_on
