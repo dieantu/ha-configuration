@@ -1,0 +1,176 @@
+---
+## command_ikea ##
+# Automations for the command Ikea
+
+automations:
+
+  # Middle Button
+  - id: 'devices_command_ikea_middle'
+    alias: Devices - command_ikea - Middle
+    trigger:
+    - platform: event
+      event_type: deconz_event
+      event_data:
+        id: tradfri_remote_control
+        event: 1002
+    condition: []
+    action:
+    - if:
+      - condition: device
+        type: is_on
+        device_id: 4b2d6ee879d061eceb9aed86f70bc307
+        entity_id: switch.aqara_interruptor
+        domain: switch
+      then:
+      - type: turn_on
+        device_id: 4f71970270d5e8a6fc3910b7b8ba79cc
+        entity_id: light.innr_gu10_1
+        domain: light
+        brightness_pct: 100
+        flash: short
+      - type: turn_on
+        device_id: fade6d3ff1954ba211c32cdbd13e68a2
+        entity_id: light.innr_gu10_2
+        domain: light
+        brightness_pct: 100
+        flash: short
+      - type: turn_on
+        device_id: 1c853f3ffad5ac989bd743f90d763478
+        entity_id: light.innr_gu10_3
+        domain: light
+        brightness_pct: 100
+        flash: short
+      - type: turn_off
+        device_id: 4b2d6ee879d061eceb9aed86f70bc307
+        entity_id: switch.aqara_interruptor
+        domain: switch
+      else:
+      - type: turn_on
+        device_id: 4b2d6ee879d061eceb9aed86f70bc307
+        entity_id: switch.aqara_interruptor
+        domain: switch
+      - type: turn_on
+        device_id: 4f71970270d5e8a6fc3910b7b8ba79cc
+        entity_id: light.innr_gu10_1
+        domain: light
+        brightness_pct: 100
+        flash: short
+    mode: single
+
+  # Right Button
+  - id: 'devices_command_ikea_right'
+    alias: Devices - command_ikea - Right
+    trigger:
+    - platform: event
+      event_type: deconz_event
+      event_data:
+        id: tradfri_remote_control
+        event: 5002
+    action:
+    - if:
+      - condition: device
+        type: is_on
+        device_id: 4b2d6ee879d061eceb9aed86f70bc307
+        entity_id: switch.aqara_interruptor
+        domain: switch
+      then:
+      - type: turn_off
+        device_id: fade6d3ff1954ba211c32cdbd13e68a2
+        entity_id: light.innr_gu10_2
+        domain: light
+      - type: turn_off
+        device_id: 1c853f3ffad5ac989bd743f90d763478
+        entity_id: light.innr_gu10_3
+        domain: light
+      - type: turn_on
+        device_id: 4f71970270d5e8a6fc3910b7b8ba79cc
+        entity_id: light.innr_gu10_1
+        domain: light
+        flash: short
+        brightness_pct: 5
+      else:
+      - type: turn_off
+        device_id: fade6d3ff1954ba211c32cdbd13e68a2
+        entity_id: light.innr_gu10_2
+        domain: light
+      - type: turn_off
+        device_id: 1c853f3ffad5ac989bd743f90d763478
+        entity_id: light.innr_gu10_3
+        domain: light
+      - type: turn_on
+        device_id: 4f71970270d5e8a6fc3910b7b8ba79cc
+        entity_id: light.innr_gu10_1
+        domain: light
+        brightness_pct: 5
+        flash: short
+    mode: single
+
+  # Left Button
+  - id: 'devices_command_ikea_left'
+    alias: Devices - command_ikea - Left
+    trigger:
+    - platform: event
+      event_type: deconz_event
+      event_data:
+        id: tradfri_remote_control
+        event: 4002
+    action:
+    - if:
+      - condition: device
+        type: is_on
+        device_id: 4b2d6ee879d061eceb9aed86f70bc307
+        entity_id: switch.aqara_interruptor
+        domain: switch
+      then:
+      - type: turn_off
+        device_id: fade6d3ff1954ba211c32cdbd13e68a2
+        entity_id: light.innr_gu10_2
+        domain: light
+      - type: turn_off
+        device_id: 1c853f3ffad5ac989bd743f90d763478
+        entity_id: light.innr_gu10_3
+        domain: light
+      - type: turn_on
+        device_id: 4f71970270d5e8a6fc3910b7b8ba79cc
+        entity_id: light.innr_gu10_1
+        domain: light
+        flash: short
+        brightness_pct: 100
+      else:
+      - type: turn_off
+        device_id: fade6d3ff1954ba211c32cdbd13e68a2
+        entity_id: light.innr_gu10_2
+        domain: light
+      - type: turn_off
+        device_id: 1c853f3ffad5ac989bd743f90d763478
+        entity_id: light.innr_gu10_3
+        domain: light
+      - type: turn_on
+        device_id: 4f71970270d5e8a6fc3910b7b8ba79cc
+        entity_id: light.innr_gu10_1
+        domain: light
+        brightness_pct: 100
+        flash: short
+    mode: single
+
+  # Upper Button
+  - id: 'devices_command_ikea_up'
+    alias: Devices - command_ikea - Up
+    trigger:
+    - platform: event
+      event_type: deconz_event
+      event_data:
+        id: tradfri_remote_control
+        event: 2002
+    condition:
+    - condition: device
+      type: is_on
+      device_id: 4b2d6ee879d061eceb9aed86f70bc307
+      entity_id: switch.aqara_interruptor
+      domain: switch
+    action:
+    - device_id: 82f5e22a408765182587ca6442e30518
+      domain: light
+      entity_id: light.menjador
+      type: brightness_increase
+    mode: single

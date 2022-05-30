@@ -1,0 +1,6 @@
+---
+## tts ##
+# Text to speech configuration file.
+
+tts:
+  - platform: google_translate

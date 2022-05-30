@@ -1,0 +1,67 @@
+---
+## system_nofitications ##
+# Automations 4 notifications of the system
+
+automation:
+  # System restarts
+  - id: system_notification_restart
+    alias: "System - Notifications - Home Assistant Restarts"
+    trigger:
+      platform: homeassistant
+      event: start
+    action:
+    - service: notify.mobile_app_antus_iphone
+      data:
+        title: Home Assistant
+        message: Home Assistant has succesfully restarted!
+    - service: media_player.play_media
+      data:
+        media_content_id: /config/packages/system/.sounds/HomePod_init.wav  
+        media_content_type: music
+      target:
+        entity_id: media_player.bedroom
+
+  # New Device has been connected
+  - id: system_notifications_new_device
+    alias: "System - Notification - New Device Connected"
+    trigger:
+      platform: event
+      event_type: entity_registry_updated
+      event_data:
+        action: create
+    condition: >
+      {{trigger.event.data.entity_id.startswith('device_tracker')}}
+    action:
+      - variables:
+          entity: >
+            {{trigger.event.data.entity_id}}
+      - service: system_log.write
+        data:
+          message: >
+            New device registrered: {{state_attr(entity,'friendly_name')}}
+          level: warning
+          logger: homeassistant.components.device_tracker
+      - service: notify.mobile_app_antus_iphone
+        data:
+          title: >
+            New device registered: {{state_attr(entity,'friendly_name')}}
+          message: >
+            Entity: {{entity}}
+            Host: {{state_attr(entity,'host_name')}}
+            Ip: {{state_attr(entity,'ip')}}
+            Mac-address: {{state_attr(entity,'mac')}}
+            Full data: {{trigger.event.data}}
+
+  # New Update Available
+  - id: system_notifications_update_notification
+    alias: "System - Notification - Home Assistant Update Notification"
+    trigger:
+      - entity_id: binary_sensor.updater
+        platform: state
+        from: "off"
+        to: "on"
+    action:
+      - service: notify.mobile_app_antus_iphone
+        data:
+          message: Home Assistant needs to be updated to a newer version.
+          title: Home Assistant Pending Update!
