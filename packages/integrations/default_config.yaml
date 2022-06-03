@@ -104,7 +104,10 @@ tag:
 # Learn more https://www.home-assistant.io/integrations/usb/
 usb:
 
-# uj
+# Webhook trigger fires when a web request is made to the webhook endpoint:
+# /api/webhook/<webhook_id>. The webhook endpoint is created automatically
+# when you set it as the webhook_id in an automation trigger.
+# Learn more https://www.home-assistant.io/integrations/webhook/
 webhook:
 
 # The zeroconf integration will scan the network for supported devices and
