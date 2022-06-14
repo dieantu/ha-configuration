@@ -1,12 +1,12 @@
 ---
-## command_ikea ##
-# Automations for the command Ikea
+## remote_ikea ##
+# Automations for the Ikea Remote
 
 automation:
 
   # Middle Button
-  - id: 'devices_command_ikea_middle'
-    alias: Devices - command_ikea - Middle
+  - id: 'devices_remote_ikea_middle'
+    alias: Devices - remote_ikea - Middle
     trigger:
     - platform: event
       event_type: deconz_event
@@ -58,8 +58,8 @@ automation:
     mode: single
 
   # Right Button
-  - id: 'devices_command_ikea_right'
-    alias: Devices - command_ikea - Right
+  - id: 'devices_remote_ikea_right'
+    alias: Devices - remote_ikea - Right
     trigger:
     - platform: event
       event_type: deconz_event
@@ -106,8 +106,8 @@ automation:
     mode: single
 
   # Left Button
-  - id: 'devices_command_ikea_left'
-    alias: Devices - command_ikea - Left
+  - id: 'devices_remote_ikea_left'
+    alias: Devices - remote_ikea - Left
     trigger:
     - platform: event
       event_type: deconz_event
@@ -154,8 +154,8 @@ automation:
     mode: single
 
   # Upper Button
-  - id: 'devices_command_ikea_up'
-    alias: Devices - command_ikea - Up
+  - id: 'devices_remote_ikea_up'
+    alias: Devices - remote_ikea - Up
     trigger:
     - platform: event
       event_type: deconz_event
