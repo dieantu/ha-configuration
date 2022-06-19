@@ -1,0 +1,27 @@
+{
+    "version": 1,
+    "minor_version": 1,
+    "key": "zone",
+    "data": {
+        "items": [
+            {
+                "latitude": 41.15345460108331,
+                "longitude": 1.2137317657470703,
+                "name": "Ajuntament",
+                "icon": "mdi:map-marker",
+                "passive": false,
+                "radius": 66.25245271097837,
+                "id": "ajuntament"
+            },
+            {
+                "latitude": 41.1552641096061,
+                "longitude": 1.209697723388672,
+                "name": "Consum",
+                "icon": "mdi:map-marker",
+                "passive": false,
+                "radius": 66.83271417084731,
+                "id": "consum"
+            }
+        ]
+    }
+}

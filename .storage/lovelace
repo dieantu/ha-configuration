@@ -1,0 +1,234 @@
+{
+    "version": 1,
+    "minor_version": 1,
+    "key": "lovelace",
+    "data": {
+        "config": {
+            "views": [
+                {
+                    "title": "Home",
+                    "background": "var(--background-image)",
+                    "badges": [
+                        {
+                            "entity": "person.antu"
+                        },
+                        {
+                            "entity": "person.asgibert"
+                        },
+                        {
+                            "entity": "person.pilar"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "type": "vertical-stack",
+                            "cards": [
+                                {
+                                    "type": "horizontal-stack",
+                                    "cards": [
+                                        {
+                                            "type": "horizontal-stack",
+                                            "cards": [
+                                                {
+                                                    "show_name": true,
+                                                    "show_icon": true,
+                                                    "type": "button",
+                                                    "tap_action": {
+                                                        "action": "toggle"
+                                                    },
+                                                    "entity": "switch.aqara_interruptor",
+                                                    "name": "General Menjador",
+                                                    "icon": ""
+                                                },
+                                                {
+                                                    "show_name": true,
+                                                    "show_icon": true,
+                                                    "type": "button",
+                                                    "tap_action": {
+                                                        "action": "toggle"
+                                                    },
+                                                    "entity": "light.innr_gu10_1",
+                                                    "icon": "mdi:lightbulb-spot",
+                                                    "name": "Menjador 1",
+                                                    "show_state": true
+                                                },
+                                                {
+                                                    "show_name": true,
+                                                    "show_icon": true,
+                                                    "type": "button",
+                                                    "tap_action": {
+                                                        "action": "toggle"
+                                                    },
+                                                    "entity": "light.innr_gu10_2",
+                                                    "icon": "mdi:lightbulb-spot",
+                                                    "name": "Menjador 2",
+                                                    "show_state": true
+                                                },
+                                                {
+                                                    "show_name": true,
+                                                    "show_icon": true,
+                                                    "type": "button",
+                                                    "tap_action": {
+                                                        "action": "toggle"
+                                                    },
+                                                    "entity": "light.innr_gu10_3",
+                                                    "icon": "mdi:lightbulb-spot",
+                                                    "name": "Menjador 3",
+                                                    "show_state": true
+                                                },
+                                                {
+                                                    "show_name": true,
+                                                    "show_icon": true,
+                                                    "type": "button",
+                                                    "tap_action": {
+                                                        "action": "toggle"
+                                                    },
+                                                    "entity": "fan.mss210_37f9",
+                                                    "icon": "mdi:fan",
+                                                    "name": "Ventilador"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "entity",
+                                    "entity": "sensor.menjador",
+                                    "name": "Humitat"
+                                },
+                                {
+                                    "type": "entity",
+                                    "entity": "sensor.menjador_2",
+                                    "name": "Temperatura"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "theme": "Backend-selected",
+                    "background": "var(--background-image)",
+                    "title": "Habitaci\u00f3 Antu",
+                    "path": "habitacio-antu",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "vertical-stack",
+                            "cards": [
+                                {
+                                    "type": "custom:mini-media-player",
+                                    "entity": "media_player.yamaha",
+                                    "name": "Yamaha MusicCast 50"
+                                },
+                                {
+                                    "square": true,
+                                    "columns": 4,
+                                    "type": "grid",
+                                    "cards": [
+                                        {
+                                            "show_name": true,
+                                            "show_icon": true,
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "toggle"
+                                            },
+                                            "entity": "light.hue_play_1",
+                                            "icon": "hue:play-bar-v",
+                                            "show_state": true
+                                        },
+                                        {
+                                            "show_name": true,
+                                            "show_icon": true,
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "toggle"
+                                            },
+                                            "entity": "light.hue_play_2",
+                                            "icon": "hue:play-bar-v",
+                                            "show_state": true
+                                        },
+                                        {
+                                            "show_name": true,
+                                            "show_icon": true,
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "toggle"
+                                            },
+                                            "entity": "light.hue_lightbulb_1",
+                                            "icon": "hue:bulb-br30",
+                                            "show_state": true,
+                                            "name": "Lightbulb 1"
+                                        },
+                                        {
+                                            "show_name": true,
+                                            "show_icon": true,
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "toggle"
+                                            },
+                                            "entity": "light.hue_lightbulb_2",
+                                            "icon": "hue:bulb-br30",
+                                            "show_state": true,
+                                            "name": "Lightbulb 2"
+                                        },
+                                        {
+                                            "show_name": true,
+                                            "show_icon": true,
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "toggle"
+                                            },
+                                            "entity": "light.hue_lightbulb_3",
+                                            "icon": "hue:bulb-br30",
+                                            "show_state": true,
+                                            "name": "Lightbulb 3"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "entity",
+                                    "entity": "sensor.sensor_qualitat_d_aire_3",
+                                    "name": "Temperatura"
+                                },
+                                {
+                                    "type": "entity",
+                                    "entity": "sensor.sensor_qualitat_d_aire_2",
+                                    "name": "Humitat"
+                                },
+                                {
+                                    "type": "entity",
+                                    "entity": "sensor.sensor_qualitat_d_aire",
+                                    "name": "QA"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "theme": "Backend-selected",
+                    "background": "var(--background-image)",
+                    "title": "Habitaci\u00f3 Antoni",
+                    "path": "habitacio-antoni",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "vertical-stack",
+                            "cards": [
+                                {
+                                    "type": "entity",
+                                    "entity": "sensor.sensor_habitacio_papa",
+                                    "name": "Humitat"
+                                },
+                                {
+                                    "type": "entity",
+                                    "entity": "sensor.sensor_habitacio_papa_2",
+                                    "name": "Temperatura"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

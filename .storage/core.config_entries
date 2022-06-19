@@ -1,0 +1,305 @@
+{
+    "version": 1,
+    "minor_version": 1,
+    "key": "core.config_entries",
+    "data": {
+        "entries": [
+            {
+                "entry_id": "f6ca564132c820452432f2b6d2c72c64",
+                "version": 1,
+                "domain": "sun",
+                "title": "Sun",
+                "data": {},
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "import",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "d7866aae028b601d8a9132f41dfa1872",
+                "version": 1,
+                "domain": "met",
+                "title": "Home",
+                "data": {
+                    "track_home": true
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "onboarding",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "49242a7baa0b9ea4a6593c956ea70635",
+                "version": 1,
+                "domain": "radio_browser",
+                "title": "Radio Browser",
+                "data": {},
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "onboarding",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "0343f6fe8c21aa9ed75474513f7d291b",
+                "version": 1,
+                "domain": "homekit_controller",
+                "title": "MSS210-37f9",
+                "data": {
+                    "AccessoryPairingID": "B6:B9:B7:3B:DC:A6",
+                    "AccessoryLTPK": "0450eb7d1a3434e789ed56953a6a26592de5890d8250ebf324a434432e2ef120",
+                    "iOSPairingId": "5278a2b2-9330-46f6-b008-b0bcd92609f6",
+                    "iOSDeviceLTSK": "51cacd3cf1cdf591117419bd312f9e55350f30ac1c74a3ac953643886597f00a",
+                    "iOSDeviceLTPK": "1931e798573e702baac5524be58529ba708d0fe75f291815028c7e87d426d6cf",
+                    "AccessoryIP": "10.0.1.202",
+                    "AccessoryPort": 5010,
+                    "Connection": "IP"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "zeroconf",
+                "unique_id": "b6:b9:b7:3b:dc:a6",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "fb7571267bf0f9740b910fa4af6c0a21",
+                "version": 1,
+                "domain": "hacs",
+                "title": "",
+                "data": {
+                    "token": "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"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "b808286681a775df4af7ded1e1a66ab9",
+                "version": 1,
+                "domain": "switch_as_x",
+                "title": "MSS210-37f9",
+                "data": {},
+                "options": {
+                    "entity_id": "switch.mss210_37f9",
+                    "target_domain": "fan"
+                },
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "706f7fdae2a42e93899c0e1be8bf4e35",
+                "version": 1,
+                "domain": "uptime",
+                "title": "Uptime",
+                "data": {},
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "import",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "d336884d92d51cc4eff9cc1f8a94f93c",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "Antu\u2019s iPhone",
+                "data": {
+                    "manufacturer": "Apple",
+                    "model": "iPhone14,3",
+                    "os_version": "15.5",
+                    "device_name": "Antu\u2019s iPhone",
+                    "app_id": "io.robbie.HomeAssistant",
+                    "device_id": "0E0FAE9D-4DCE-4ED0-8616-2E37A64227FE",
+                    "app_version": "2022.6 (2022.375)",
+                    "supports_encryption": true,
+                    "os_name": "iOS",
+                    "app_name": "Home Assistant",
+                    "app_data": {
+                        "push_token": "eOM89ckqWkmPqSfffHD1yY:APA91bH1ZB2vpJrxpKt7knk57iINgm9ylKiTx88TU0aGc9x2CmnOiU0jglOmMpEGl6OhSU5P_nTOGGdlx0wk-qFiyAgH2HBfS2i6rjx2X-ZQLG3uQveJ6rT7sS6JaOzyh0RUa1-JKhlh",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+                    },
+                    "webhook_id": "6a16f8efe733d07334aef111d7ee608563790df6d168483895033217922c1464",
+                    "secret": "09d5b56ad16e83b5afa273c42d98f2bd30a719555da60419caa18670aa2040b5",
+                    "user_id": "2312d288868f4f1e9b187a87b9777264",
+                    "no_legacy_encryption": true
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "registration",
+                "unique_id": "io.robbie.HomeAssistant-0E0FAE9D-4DCE-4ED0-8616-2E37A64227FE",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "e69ffd313f808396456288f3e384c724",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "Pixel 3 XL",
+                "data": {
+                    "app_id": "io.homeassistant.companion.android",
+                    "app_name": "Home Assistant",
+                    "app_version": "2022.6.0-full (2398)",
+                    "device_name": "Pixel 3 XL",
+                    "manufacturer": "Google",
+                    "model": "Pixel 3 XL",
+                    "os_name": "Android",
+                    "os_version": "31",
+                    "supports_encryption": false,
+                    "app_data": {
+                        "push_websocket_channel": true,
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
+                        "push_token": "c7dbZTxgTX2sV7OWiACcsz:APA91bEzjCOFVuZENEp6mq_wlLLKaMBqlBMuw0R0NVxyUAN3dByZ6zeaQm_xd_pbMltbegOhzx8NE3l_XGimnmOmJb1yoxBlM1rYnGQHF4S3uODPUHxMH4rXHg5bPa2gEE9W5EVj-vZ6"
+                    },
+                    "device_id": "93d8aaaf4ebae9c4",
+                    "cloudhook_url": "https://hooks.nabu.casa/gAAAAABirdSpzWdGUWbtK8OjI3NPahG7W9iKgXZlAAc70MfhdunrmwQ_slfJkj_3SW6xTVIRLZIJHQoaUXJXF4Co8NoRfcARdKWYnmHhrlV7EwE-QTxthZrmMaobWGc1adLN4IwaOZ8txPO1QXV_ant_Nxhdcpmz73OlVeQHW0WQ7b8U95DZ_Hk=",
+                    "webhook_id": "2cf0ab7d7f7e7e0aee983d429b4f908d15a045db1016d0658de830b2f580fe49",
+                    "user_id": "8596762b17a64c40b536e0bac1c60ea5"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "registration",
+                "unique_id": "io.homeassistant.companion.android-93d8aaaf4ebae9c4",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "a5752d15ec80acb3b6982f1e3485cb5a",
+                "version": 1,
+                "domain": "deconz",
+                "title": "00212E07826C",
+                "data": {
+                    "host": "10.0.0.2",
+                    "port": 8080,
+                    "api_key": "0083FE4600"
+                },
+                "options": {
+                    "master": true
+                },
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": "00212E07826C",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "844f200d344f57628799f09087e21f0a",
+                "version": 1,
+                "domain": "homekit",
+                "title": "HASS Bridge:21064",
+                "data": {
+                    "name": "HASS Bridge",
+                    "exclude_accessory_mode": true,
+                    "port": 21064
+                },
+                "options": {
+                    "filter": {
+                        "include_domains": [
+                            "humidifier",
+                            "light",
+                            "lock",
+                            "media_player",
+                            "remote",
+                            "vacuum",
+                            "water_heater",
+                            "binary_sensor"
+                        ],
+                        "exclude_domains": [],
+                        "include_entities": [
+                            "switch.mss210_37f9"
+                        ],
+                        "exclude_entities": []
+                    },
+                    "mode": "accessory"
+                },
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "zeroconf",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "da62bef20f776354df47d8c5cd663206",
+                "version": 1,
+                "domain": "yamaha_musiccast",
+                "title": "10.0.1.141",
+                "data": {
+                    "host": "10.0.1.141",
+                    "serial": "07DB28B3",
+                    "upnp_description": "http://10.0.1.141:49154/MediaRenderer/desc.xml"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "ssdp",
+                "unique_id": "07DB28B3",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "686c08c7517f5bc67df4c51af374f9a0",
+                "version": 1,
+                "domain": "ipp",
+                "title": "EPSON ET-2820 Series",
+                "data": {
+                    "host": "10.0.1.186",
+                    "port": 631,
+                    "ssl": true,
+                    "verify_ssl": false,
+                    "base_path": "/ipp/print",
+                    "name": "EPSON ET-2820 Series",
+                    "uuid": "cfe92100-67c4-11d4-a45f-e0bb9e615b90"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "zeroconf",
+                "unique_id": "cfe92100-67c4-11d4-a45f-e0bb9e615b90",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "a9fee239defffb46b202711530573074",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "iPad de: Antoni",
+                "data": {
+                    "supports_encryption": true,
+                    "device_id": "002B5B39-3358-4C8B-A62D-71EF8AE0EEB0",
+                    "app_id": "io.robbie.HomeAssistant",
+                    "model": "iPad6,3",
+                    "os_version": "15.5",
+                    "app_name": "Home Assistant",
+                    "app_version": "2022.3 (2022.358)",
+                    "app_data": {
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification",
+                        "push_token": "cvDcI8OB1UgGjqr_rv4lEI:APA91bHHEAocs81m6yhCRC6UtWsWogJhjoxHR4qeuq6IvKZQbdyjh2rWh15riNZGfgTgYZbFsLLd6dBfwZ9JrG2YssDix7mt0OIqEvkH_iYyA4m79CqBuf4kZF7eVnDa4O9ChYeGEkCC"
+                    },
+                    "os_name": "iPadOS",
+                    "device_name": "iPad de: Antoni",
+                    "manufacturer": "Apple",
+                    "cloudhook_url": "https://hooks.nabu.casa/gAAAAABirzLwUfuwzcJaHdYR5SChOLmuYaGD-tWsuJ_Upv20XCBobUtRJD83kCiM5YtvN1eabWVI--DqSnHpdA6ymUsNbdOWXk-4GfwcA0TCL_495-OMlyUhWSE-nZ_tuoH2L9NjAVRtJSSrv60wcrvoFrijrpHOsOwT7WzoaQ3rN2nQTogzYsY=",
+                    "webhook_id": "f3506fa92cb2b30aa72898da9c1156abbe6ffc2eba01f81ca4051a3712278971",
+                    "secret": "21f0700e1116118d53fa14ef6ce051d894dacc29eaa6454d745deb98ce1e24b9",
+                    "user_id": "8596762b17a64c40b536e0bac1c60ea5"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "registration",
+                "unique_id": "io.robbie.HomeAssistant-002B5B39-3358-4C8B-A62D-71EF8AE0EEB0",
+                "disabled_by": null
+            }
+        ]
+    }
+}

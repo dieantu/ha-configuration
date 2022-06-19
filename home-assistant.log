@@ -1,0 +1,238 @@
+2022-06-19 11:57:51 WARNING (SyncWorker_1) [homeassistant.loader] We found a custom integration browser_mod which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2022-06-19 11:57:51 WARNING (SyncWorker_2) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2022-06-19 11:57:51 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration tapo_control which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2022-06-19 11:57:56 WARNING (MainThread) [hass_nabucasa.cloud_api] Fetched https://alexa-api.nabucasa.com/access_token (400)
+2022-06-19 11:58:06 ERROR (MainThread) [homeassistant.components.automation.system_notifications_home_assistant_restarts] System - Notifications - Home Assistant Restarts: Error executing script. Service not found for call_service at pos 2: Unable to find service media_player.play_media
+2022-06-19 11:58:06 ERROR (MainThread) [homeassistant.components.automation.system_notifications_home_assistant_restarts] Error while executing automation automation.system_notifications_home_assistant_restarts: Unable to find service media_player.play_media
+2022-06-19 12:05:42 WARNING (MainThread) [hass_nabucasa.cloud_api] Fetched https://alexa-api.nabucasa.com/access_token (400)
+2022-06-19 12:05:42 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 367, in _handle_entity_registry_updated
+    await self._sync_helper(to_update, to_remove)
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 311, in _sync_helper
+    await self.async_get_access_token()
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 173, in async_get_access_token
+    raise alexa_errors.RequireRelink
+homeassistant.components.alexa.errors.RequireRelink
+2022-06-19 12:05:42 WARNING (MainThread) [hass_nabucasa.cloud_api] Fetched https://alexa-api.nabucasa.com/access_token (400)
+2022-06-19 12:05:42 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 367, in _handle_entity_registry_updated
+    await self._sync_helper(to_update, to_remove)
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 311, in _sync_helper
+    await self.async_get_access_token()
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 173, in async_get_access_token
+    raise alexa_errors.RequireRelink
+homeassistant.components.alexa.errors.RequireRelink
+2022-06-19 12:05:42 WARNING (MainThread) [hass_nabucasa.cloud_api] Fetched https://alexa-api.nabucasa.com/access_token (400)
+2022-06-19 12:05:42 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 367, in _handle_entity_registry_updated
+    await self._sync_helper(to_update, to_remove)
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 311, in _sync_helper
+    await self.async_get_access_token()
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 173, in async_get_access_token
+    raise alexa_errors.RequireRelink
+homeassistant.components.alexa.errors.RequireRelink
+2022-06-19 12:05:42 WARNING (MainThread) [hass_nabucasa.cloud_api] Fetched https://alexa-api.nabucasa.com/access_token (400)
+2022-06-19 12:05:42 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 367, in _handle_entity_registry_updated
+    await self._sync_helper(to_update, to_remove)
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 311, in _sync_helper
+    await self.async_get_access_token()
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 173, in async_get_access_token
+    raise alexa_errors.RequireRelink
+homeassistant.components.alexa.errors.RequireRelink
+2022-06-19 12:05:42 WARNING (MainThread) [hass_nabucasa.cloud_api] Fetched https://alexa-api.nabucasa.com/access_token (400)
+2022-06-19 12:05:42 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 367, in _handle_entity_registry_updated
+    await self._sync_helper(to_update, to_remove)
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 311, in _sync_helper
+    await self.async_get_access_token()
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 173, in async_get_access_token
+    raise alexa_errors.RequireRelink
+homeassistant.components.alexa.errors.RequireRelink
+2022-06-19 12:05:43 WARNING (MainThread) [hass_nabucasa.cloud_api] Fetched https://alexa-api.nabucasa.com/access_token (400)
+2022-06-19 12:05:43 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 367, in _handle_entity_registry_updated
+    await self._sync_helper(to_update, to_remove)
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 311, in _sync_helper
+    await self.async_get_access_token()
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 173, in async_get_access_token
+    raise alexa_errors.RequireRelink
+homeassistant.components.alexa.errors.RequireRelink
+2022-06-19 12:07:57 ERROR (MainThread) [frontend.js.latest.202206010] :0:0 Script error.
+2022-06-19 16:30:07 WARNING (MainThread) [homeassistant.components.device_tracker] New device registrered: None
+2022-06-19 16:30:08 WARNING (MainThread) [hass_nabucasa.cloud_api] Fetched https://alexa-api.nabucasa.com/access_token (400)
+2022-06-19 16:30:08 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 367, in _handle_entity_registry_updated
+    await self._sync_helper(to_update, to_remove)
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 311, in _sync_helper
+    await self.async_get_access_token()
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 173, in async_get_access_token
+    raise alexa_errors.RequireRelink
+homeassistant.components.alexa.errors.RequireRelink
+2022-06-19 16:30:08 WARNING (MainThread) [hass_nabucasa.cloud_api] Fetched https://alexa-api.nabucasa.com/access_token (400)
+2022-06-19 16:30:08 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 367, in _handle_entity_registry_updated
+    await self._sync_helper(to_update, to_remove)
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 311, in _sync_helper
+    await self.async_get_access_token()
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 173, in async_get_access_token
+    raise alexa_errors.RequireRelink
+homeassistant.components.alexa.errors.RequireRelink
+2022-06-19 16:30:08 WARNING (MainThread) [hass_nabucasa.cloud_api] Fetched https://alexa-api.nabucasa.com/access_token (400)
+2022-06-19 16:30:08 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 367, in _handle_entity_registry_updated
+    await self._sync_helper(to_update, to_remove)
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 311, in _sync_helper
+    await self.async_get_access_token()
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 173, in async_get_access_token
+    raise alexa_errors.RequireRelink
+homeassistant.components.alexa.errors.RequireRelink
+2022-06-19 16:30:08 WARNING (MainThread) [hass_nabucasa.cloud_api] Fetched https://alexa-api.nabucasa.com/access_token (400)
+2022-06-19 16:30:08 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 367, in _handle_entity_registry_updated
+    await self._sync_helper(to_update, to_remove)
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 311, in _sync_helper
+    await self.async_get_access_token()
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 173, in async_get_access_token
+    raise alexa_errors.RequireRelink
+homeassistant.components.alexa.errors.RequireRelink
+2022-06-19 16:30:08 WARNING (MainThread) [hass_nabucasa.cloud_api] Fetched https://alexa-api.nabucasa.com/access_token (400)
+2022-06-19 16:30:08 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 367, in _handle_entity_registry_updated
+    await self._sync_helper(to_update, to_remove)
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 311, in _sync_helper
+    await self.async_get_access_token()
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 173, in async_get_access_token
+    raise alexa_errors.RequireRelink
+homeassistant.components.alexa.errors.RequireRelink
+2022-06-19 16:30:08 WARNING (MainThread) [hass_nabucasa.cloud_api] Fetched https://alexa-api.nabucasa.com/access_token (400)
+2022-06-19 16:30:08 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 367, in _handle_entity_registry_updated
+    await self._sync_helper(to_update, to_remove)
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 311, in _sync_helper
+    await self.async_get_access_token()
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 173, in async_get_access_token
+    raise alexa_errors.RequireRelink
+homeassistant.components.alexa.errors.RequireRelink
+2022-06-19 16:30:08 WARNING (MainThread) [hass_nabucasa.cloud_api] Fetched https://alexa-api.nabucasa.com/access_token (400)
+2022-06-19 16:30:08 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 367, in _handle_entity_registry_updated
+    await self._sync_helper(to_update, to_remove)
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 311, in _sync_helper
+    await self.async_get_access_token()
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 173, in async_get_access_token
+    raise alexa_errors.RequireRelink
+homeassistant.components.alexa.errors.RequireRelink
+2022-06-19 16:30:08 WARNING (MainThread) [hass_nabucasa.cloud_api] Fetched https://alexa-api.nabucasa.com/access_token (400)
+2022-06-19 16:30:08 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 367, in _handle_entity_registry_updated
+    await self._sync_helper(to_update, to_remove)
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 311, in _sync_helper
+    await self.async_get_access_token()
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 173, in async_get_access_token
+    raise alexa_errors.RequireRelink
+homeassistant.components.alexa.errors.RequireRelink
+2022-06-19 16:30:08 WARNING (MainThread) [hass_nabucasa.cloud_api] Fetched https://alexa-api.nabucasa.com/access_token (400)
+2022-06-19 16:30:08 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 367, in _handle_entity_registry_updated
+    await self._sync_helper(to_update, to_remove)
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 311, in _sync_helper
+    await self.async_get_access_token()
+  File "/usr/src/homeassistant/homeassistant/components/cloud/alexa_config.py", line 173, in async_get_access_token
+    raise alexa_errors.RequireRelink
+homeassistant.components.alexa.errors.RequireRelink
+2022-06-19 18:33:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 18:33:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 18:35:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 18:35:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 18:37:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 18:37:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 18:39:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 18:39:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 18:41:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 18:41:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 18:43:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 18:43:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 18:45:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 18:45:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 18:47:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 18:47:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 18:49:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 18:49:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 18:51:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 18:51:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 18:53:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 18:53:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 18:55:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 18:55:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 18:57:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 18:57:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 18:59:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 18:59:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:01:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:01:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:03:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:03:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:05:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:05:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:07:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:07:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:09:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:09:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:11:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:11:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:13:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:13:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:15:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:15:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:17:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:17:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:19:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:19:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:21:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:21:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:23:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:23:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:25:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:25:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:27:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:27:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:29:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:29:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:31:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:31:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:33:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:33:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:35:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:35:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:37:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:37:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:39:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:39:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:41:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:41:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:43:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:43:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:45:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:45:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:47:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:47:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:49:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:49:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:51:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>
+2022-06-19 19:51:21 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=19 read=polling write=<idle, bufsize=0>>

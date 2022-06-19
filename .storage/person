@@ -1,0 +1,34 @@
+{
+    "version": 2,
+    "minor_version": 1,
+    "key": "person",
+    "data": {
+        "items": [
+            {
+                "name": "antu",
+                "user_id": "2312d288868f4f1e9b187a87b9777264",
+                "device_trackers": [
+                    "device_tracker.antus_iphone"
+                ],
+                "id": "antu"
+            },
+            {
+                "name": "asgibert",
+                "device_trackers": [
+                    "device_tracker.pixel_3_xl",
+                    "device_tracker.ipad_de_antoni"
+                ],
+                "user_id": "8596762b17a64c40b536e0bac1c60ea5",
+                "picture": null,
+                "id": "asgibert"
+            },
+            {
+                "name": "Pilar",
+                "device_trackers": [],
+                "user_id": null,
+                "picture": null,
+                "id": "pilar"
+            }
+        ]
+    }
+}

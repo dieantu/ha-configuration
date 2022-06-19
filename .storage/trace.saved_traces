@@ -1,0 +1,936 @@
+{
+    "version": 1,
+    "minor_version": 1,
+    "key": "trace.saved_traces",
+    "data": {
+        "automation.system_default_theme": [
+            {
+                "extended_dict": {
+                    "last_step": "action/0",
+                    "run_id": "6eba6cb3f483b735fb29df03bb6f1e82",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2022-06-18T16:24:11.003074+00:00",
+                        "finish": "2022-06-18T16:24:15.397869+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "system_default_theme",
+                    "trigger": "Home Assistant starting",
+                    "trace": {
+                        "trigger/0": [
+                            {
+                                "path": "trigger/0",
+                                "timestamp": "2022-06-18T16:24:11.003224+00:00",
+                                "changed_variables": {
+                                    "this": {
+                                        "entity_id": "automation.system_default_theme",
+                                        "state": "on",
+                                        "attributes": {
+                                            "last_triggered": "2022-06-18T12:05:51.141435+00:00",
+                                            "mode": "single",
+                                            "current": 0,
+                                            "id": "system_default_theme",
+                                            "friendly_name": "System - Default Theme"
+                                        },
+                                        "last_changed": "2022-06-18T16:24:10.654668+00:00",
+                                        "last_updated": "2022-06-18T16:24:10.654668+00:00",
+                                        "context": {
+                                            "id": "01G5VT21MY9SD25RVHA9FZECHJ",
+                                            "parent_id": null,
+                                            "user_id": null
+                                        }
+                                    },
+                                    "trigger": {
+                                        "id": "0",
+                                        "idx": "0",
+                                        "platform": "homeassistant",
+                                        "event": "start",
+                                        "description": "Home Assistant starting"
+                                    }
+                                }
+                            }
+                        ],
+                        "action/0": [
+                            {
+                                "path": "action/0",
+                                "timestamp": "2022-06-18T16:24:11.007199+00:00",
+                                "changed_variables": {
+                                    "context": {
+                                        "id": "01G5VT21ZTK6SK55MQ31QCHQRS",
+                                        "parent_id": null,
+                                        "user_id": null
+                                    }
+                                },
+                                "result": {
+                                    "params": {
+                                        "domain": "frontend",
+                                        "service": "set_theme",
+                                        "service_data": {
+                                            "name": "ios-dark-mode"
+                                        },
+                                        "target": {}
+                                    },
+                                    "running_script": false,
+                                    "limit": 10
+                                }
+                            }
+                        ]
+                    },
+                    "config": {
+                        "id": "system_default_theme",
+                        "alias": "System - Default Theme",
+                        "description": "Set Theme on HA Start",
+                        "trigger": [
+                            {
+                                "event": "start",
+                                "platform": "homeassistant"
+                            }
+                        ],
+                        "action": [
+                            {
+                                "data": {
+                                    "name": "ios-dark-mode"
+                                },
+                                "service": "frontend.set_theme"
+                            }
+                        ]
+                    },
+                    "blueprint_inputs": null,
+                    "context": {
+                        "id": "01G5VT21ZTK6SK55MQ31QCHQRS",
+                        "parent_id": null,
+                        "user_id": null
+                    }
+                },
+                "short_dict": {
+                    "last_step": "action/0",
+                    "run_id": "6eba6cb3f483b735fb29df03bb6f1e82",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2022-06-18T16:24:11.003074+00:00",
+                        "finish": "2022-06-18T16:24:15.397869+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "system_default_theme",
+                    "trigger": "Home Assistant starting"
+                }
+            },
+            {
+                "extended_dict": {
+                    "last_step": "action/0",
+                    "run_id": "54e192f9c2876c3a96cfd2c7f2fd877a",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2022-06-18T16:37:30.479915+00:00",
+                        "finish": "2022-06-18T16:37:35.499227+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "system_default_theme",
+                    "trigger": "Home Assistant starting",
+                    "trace": {
+                        "trigger/0": [
+                            {
+                                "path": "trigger/0",
+                                "timestamp": "2022-06-18T16:37:30.480084+00:00",
+                                "changed_variables": {
+                                    "this": {
+                                        "entity_id": "automation.system_default_theme",
+                                        "state": "on",
+                                        "attributes": {
+                                            "last_triggered": "2022-06-18T16:24:11.003566+00:00",
+                                            "mode": "single",
+                                            "current": 0,
+                                            "id": "system_default_theme",
+                                            "friendly_name": "System - Default Theme"
+                                        },
+                                        "last_changed": "2022-06-18T16:37:26.842477+00:00",
+                                        "last_updated": "2022-06-18T16:37:26.842477+00:00",
+                                        "context": {
+                                            "id": "01G5VTTB5TD8TFNBSJASN4VK49",
+                                            "parent_id": null,
+                                            "user_id": null
+                                        }
+                                    },
+                                    "trigger": {
+                                        "id": "0",
+                                        "idx": "0",
+                                        "platform": "homeassistant",
+                                        "event": "start",
+                                        "description": "Home Assistant starting"
+                                    }
+                                }
+                            }
+                        ],
+                        "action/0": [
+                            {
+                                "path": "action/0",
+                                "timestamp": "2022-06-18T16:37:30.502230+00:00",
+                                "changed_variables": {
+                                    "context": {
+                                        "id": "01G5VTTEQF9854D8WVHCSDEZ3E",
+                                        "parent_id": null,
+                                        "user_id": null
+                                    }
+                                },
+                                "result": {
+                                    "params": {
+                                        "domain": "frontend",
+                                        "service": "set_theme",
+                                        "service_data": {
+                                            "name": "ios-dark-mode"
+                                        },
+                                        "target": {}
+                                    },
+                                    "running_script": false,
+                                    "limit": 10
+                                }
+                            }
+                        ]
+                    },
+                    "config": {
+                        "id": "system_default_theme",
+                        "alias": "System - Default Theme",
+                        "description": "Set Theme on HA Start",
+                        "trigger": [
+                            {
+                                "event": "start",
+                                "platform": "homeassistant"
+                            }
+                        ],
+                        "action": [
+                            {
+                                "data": {
+                                    "name": "ios-dark-mode"
+                                },
+                                "service": "frontend.set_theme"
+                            }
+                        ]
+                    },
+                    "blueprint_inputs": null,
+                    "context": {
+                        "id": "01G5VTTEQF9854D8WVHCSDEZ3E",
+                        "parent_id": null,
+                        "user_id": null
+                    }
+                },
+                "short_dict": {
+                    "last_step": "action/0",
+                    "run_id": "54e192f9c2876c3a96cfd2c7f2fd877a",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2022-06-18T16:37:30.479915+00:00",
+                        "finish": "2022-06-18T16:37:35.499227+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "system_default_theme",
+                    "trigger": "Home Assistant starting"
+                }
+            }
+        ],
+        "automation.1655551132377": [
+            {
+                "extended_dict": {
+                    "last_step": "action/0/else/1",
+                    "run_id": "cee0d372b2ba2fe1224e64a79fa583b7",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2022-06-18T17:28:16.686718+00:00",
+                        "finish": "2022-06-18T17:28:16.722965+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "1655551132377",
+                    "trigger": "event 'deconz_event'",
+                    "trace": {
+                        "trigger/0": [
+                            {
+                                "path": "trigger/0",
+                                "timestamp": "2022-06-18T17:28:16.686956+00:00",
+                                "changed_variables": {
+                                    "this": {
+                                        "entity_id": "automation.devices_remote_ikea_middle",
+                                        "state": "on",
+                                        "attributes": {
+                                            "last_triggered": "2022-06-18T11:25:19.051079+00:00",
+                                            "mode": "single",
+                                            "current": 0,
+                                            "id": "1655551132377",
+                                            "friendly_name": "devices_remote_ikea_middle"
+                                        },
+                                        "last_changed": "2022-06-18T16:37:26.839638+00:00",
+                                        "last_updated": "2022-06-18T16:37:26.839638+00:00",
+                                        "context": {
+                                            "id": "01G5VTTB5QN4HR0HFZ3B4SD97G",
+                                            "parent_id": null,
+                                            "user_id": null
+                                        }
+                                    },
+                                    "trigger": {
+                                        "id": "0",
+                                        "idx": "0",
+                                        "platform": "event",
+                                        "event": {
+                                            "event_type": "deconz_event",
+                                            "data": {
+                                                "id": "tradfri_remote_control",
+                                                "unique_id": "ec:1b:bd:ff:fe:7d:9f:e8",
+                                                "event": 1002,
+                                                "device_id": "f3193e7a714a8decd4732359f602e3c4"
+                                            },
+                                            "origin": "LOCAL",
+                                            "time_fired": "2022-06-18T17:28:16.685164+00:00",
+                                            "context": {
+                                                "id": "01G5VXQDHDZ0883EV2SPPW63PS",
+                                                "parent_id": null,
+                                                "user_id": null
+                                            }
+                                        },
+                                        "description": "event 'deconz_event'"
+                                    }
+                                }
+                            }
+                        ],
+                        "action/0": [
+                            {
+                                "path": "action/0",
+                                "timestamp": "2022-06-18T17:28:16.692787+00:00",
+                                "changed_variables": {
+                                    "context": {
+                                        "id": "01G5VXQDHEZHYRPM84NBW165G9",
+                                        "parent_id": "01G5VXQDHDZ0883EV2SPPW63PS",
+                                        "user_id": null
+                                    }
+                                },
+                                "result": {
+                                    "choice": "else"
+                                }
+                            }
+                        ],
+                        "action/0/if": [
+                            {
+                                "path": "action/0/if",
+                                "timestamp": "2022-06-18T17:28:16.694640+00:00",
+                                "result": {
+                                    "result": false
+                                }
+                            }
+                        ],
+                        "action/0/if/condition/0": [
+                            {
+                                "path": "action/0/if/condition/0",
+                                "timestamp": "2022-06-18T17:28:16.694903+00:00",
+                                "result": {
+                                    "result": false
+                                }
+                            },
+                            {
+                                "path": "action/0/if/condition/0",
+                                "timestamp": "2022-06-18T17:28:16.694960+00:00",
+                                "result": {
+                                    "result": false
+                                }
+                            }
+                        ],
+                        "action/0/if/condition/0/entity_id/0": [
+                            {
+                                "path": "action/0/if/condition/0/entity_id/0",
+                                "timestamp": "2022-06-18T17:28:16.695021+00:00",
+                                "result": {
+                                    "result": false,
+                                    "state": "off",
+                                    "wanted_state": "on"
+                                }
+                            }
+                        ],
+                        "action/0/else/0": [
+                            {
+                                "path": "action/0/else/0",
+                                "timestamp": "2022-06-18T17:28:16.701981+00:00"
+                            }
+                        ],
+                        "action/0/else/1": [
+                            {
+                                "path": "action/0/else/1",
+                                "timestamp": "2022-06-18T17:28:16.713104+00:00"
+                            }
+                        ]
+                    },
+                    "config": {
+                        "id": "1655551132377",
+                        "alias": "devices_remote_ikea_middle",
+                        "description": "",
+                        "trigger": [
+                            {
+                                "platform": "event",
+                                "event_type": "deconz_event",
+                                "event_data": {
+                                    "id": "tradfri_remote_control",
+                                    "event": 1002
+                                }
+                            }
+                        ],
+                        "action": [
+                            {
+                                "if": [
+                                    {
+                                        "condition": "device",
+                                        "type": "is_on",
+                                        "device_id": "7490c3f3ba16e00addc68b498a9018bf",
+                                        "entity_id": "switch.aqara_interruptor",
+                                        "domain": "switch"
+                                    }
+                                ],
+                                "then": [
+                                    {
+                                        "type": "turn_on",
+                                        "device_id": "d685824419708b0e1feb3f5f637bfb66",
+                                        "entity_id": "light.innr_gu10_1",
+                                        "domain": "light",
+                                        "brightness_pct": 100,
+                                        "flash": "short"
+                                    },
+                                    {
+                                        "type": "turn_on",
+                                        "device_id": "077811316dc2a3cd82ca934119df20a5",
+                                        "entity_id": "light.innr_gu10_2",
+                                        "domain": "light",
+                                        "brightness_pct": 100,
+                                        "flash": "short"
+                                    },
+                                    {
+                                        "type": "turn_on",
+                                        "device_id": "9468ca7adacf9a166cc414fab119bd21",
+                                        "entity_id": "light.innr_gu10_3",
+                                        "domain": "light",
+                                        "brightness_pct": 100,
+                                        "flash": "short"
+                                    },
+                                    {
+                                        "type": "turn_off",
+                                        "device_id": "7490c3f3ba16e00addc68b498a9018bf",
+                                        "entity_id": "switch.aqara_interruptor",
+                                        "domain": "switch"
+                                    }
+                                ],
+                                "else": [
+                                    {
+                                        "type": "turn_on",
+                                        "device_id": "7490c3f3ba16e00addc68b498a9018bf",
+                                        "entity_id": "switch.aqara_interruptor",
+                                        "domain": "switch"
+                                    },
+                                    {
+                                        "type": "turn_on",
+                                        "device_id": "d685824419708b0e1feb3f5f637bfb66",
+                                        "entity_id": "light.innr_gu10_1",
+                                        "domain": "light",
+                                        "brightness_pct": 100,
+                                        "flash": "short"
+                                    }
+                                ]
+                            }
+                        ],
+                        "mode": "single"
+                    },
+                    "blueprint_inputs": null,
+                    "context": {
+                        "id": "01G5VXQDHEZHYRPM84NBW165G9",
+                        "parent_id": "01G5VXQDHDZ0883EV2SPPW63PS",
+                        "user_id": null
+                    }
+                },
+                "short_dict": {
+                    "last_step": "action/0/else/1",
+                    "run_id": "cee0d372b2ba2fe1224e64a79fa583b7",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2022-06-18T17:28:16.686718+00:00",
+                        "finish": "2022-06-18T17:28:16.722965+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "1655551132377",
+                    "trigger": "event 'deconz_event'"
+                }
+            },
+            {
+                "extended_dict": {
+                    "last_step": "action/0/then/3",
+                    "run_id": "543d9c69113e31360257eff94fec618b",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2022-06-18T17:28:18.176836+00:00",
+                        "finish": "2022-06-18T17:28:18.219393+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "1655551132377",
+                    "trigger": "event 'deconz_event'",
+                    "trace": {
+                        "trigger/0": [
+                            {
+                                "path": "trigger/0",
+                                "timestamp": "2022-06-18T17:28:18.176987+00:00",
+                                "changed_variables": {
+                                    "this": {
+                                        "entity_id": "automation.devices_remote_ikea_middle",
+                                        "state": "on",
+                                        "attributes": {
+                                            "last_triggered": "2022-06-18T17:28:16.687473+00:00",
+                                            "mode": "single",
+                                            "current": 0,
+                                            "id": "1655551132377",
+                                            "friendly_name": "devices_remote_ikea_middle"
+                                        },
+                                        "last_changed": "2022-06-18T16:37:26.839638+00:00",
+                                        "last_updated": "2022-06-18T17:28:16.720964+00:00",
+                                        "context": {
+                                            "id": "01G5VXQDHEZHYRPM84NBW165G9",
+                                            "parent_id": "01G5VXQDHDZ0883EV2SPPW63PS",
+                                            "user_id": null
+                                        }
+                                    },
+                                    "trigger": {
+                                        "id": "0",
+                                        "idx": "0",
+                                        "platform": "event",
+                                        "event": {
+                                            "event_type": "deconz_event",
+                                            "data": {
+                                                "id": "tradfri_remote_control",
+                                                "unique_id": "ec:1b:bd:ff:fe:7d:9f:e8",
+                                                "event": 1002,
+                                                "device_id": "f3193e7a714a8decd4732359f602e3c4"
+                                            },
+                                            "origin": "LOCAL",
+                                            "time_fired": "2022-06-18T17:28:18.175868+00:00",
+                                            "context": {
+                                                "id": "01G5VXQEZZ9088V95YMWBR0CNV",
+                                                "parent_id": null,
+                                                "user_id": null
+                                            }
+                                        },
+                                        "description": "event 'deconz_event'"
+                                    }
+                                }
+                            }
+                        ],
+                        "action/0": [
+                            {
+                                "path": "action/0",
+                                "timestamp": "2022-06-18T17:28:18.180327+00:00",
+                                "changed_variables": {
+                                    "context": {
+                                        "id": "01G5VXQF00TWW29S7QT2N8JXSD",
+                                        "parent_id": "01G5VXQEZZ9088V95YMWBR0CNV",
+                                        "user_id": null
+                                    }
+                                },
+                                "result": {
+                                    "choice": "then"
+                                }
+                            }
+                        ],
+                        "action/0/if": [
+                            {
+                                "path": "action/0/if",
+                                "timestamp": "2022-06-18T17:28:18.180546+00:00",
+                                "result": {
+                                    "result": true
+                                }
+                            }
+                        ],
+                        "action/0/if/condition/0": [
+                            {
+                                "path": "action/0/if/condition/0",
+                                "timestamp": "2022-06-18T17:28:18.180654+00:00",
+                                "result": {
+                                    "result": true
+                                }
+                            },
+                            {
+                                "path": "action/0/if/condition/0",
+                                "timestamp": "2022-06-18T17:28:18.180711+00:00",
+                                "result": {
+                                    "result": true
+                                }
+                            }
+                        ],
+                        "action/0/if/condition/0/entity_id/0": [
+                            {
+                                "path": "action/0/if/condition/0/entity_id/0",
+                                "timestamp": "2022-06-18T17:28:18.180784+00:00",
+                                "result": {
+                                    "result": true,
+                                    "state": "on",
+                                    "wanted_state": "on"
+                                }
+                            }
+                        ],
+                        "action/0/then/0": [
+                            {
+                                "path": "action/0/then/0",
+                                "timestamp": "2022-06-18T17:28:18.182043+00:00"
+                            }
+                        ],
+                        "action/0/then/1": [
+                            {
+                                "path": "action/0/then/1",
+                                "timestamp": "2022-06-18T17:28:18.192015+00:00"
+                            }
+                        ],
+                        "action/0/then/2": [
+                            {
+                                "path": "action/0/then/2",
+                                "timestamp": "2022-06-18T17:28:18.199323+00:00"
+                            }
+                        ],
+                        "action/0/then/3": [
+                            {
+                                "path": "action/0/then/3",
+                                "timestamp": "2022-06-18T17:28:18.206602+00:00"
+                            }
+                        ]
+                    },
+                    "config": {
+                        "id": "1655551132377",
+                        "alias": "devices_remote_ikea_middle",
+                        "description": "",
+                        "trigger": [
+                            {
+                                "platform": "event",
+                                "event_type": "deconz_event",
+                                "event_data": {
+                                    "id": "tradfri_remote_control",
+                                    "event": 1002
+                                }
+                            }
+                        ],
+                        "action": [
+                            {
+                                "if": [
+                                    {
+                                        "condition": "device",
+                                        "type": "is_on",
+                                        "device_id": "7490c3f3ba16e00addc68b498a9018bf",
+                                        "entity_id": "switch.aqara_interruptor",
+                                        "domain": "switch"
+                                    }
+                                ],
+                                "then": [
+                                    {
+                                        "type": "turn_on",
+                                        "device_id": "d685824419708b0e1feb3f5f637bfb66",
+                                        "entity_id": "light.innr_gu10_1",
+                                        "domain": "light",
+                                        "brightness_pct": 100,
+                                        "flash": "short"
+                                    },
+                                    {
+                                        "type": "turn_on",
+                                        "device_id": "077811316dc2a3cd82ca934119df20a5",
+                                        "entity_id": "light.innr_gu10_2",
+                                        "domain": "light",
+                                        "brightness_pct": 100,
+                                        "flash": "short"
+                                    },
+                                    {
+                                        "type": "turn_on",
+                                        "device_id": "9468ca7adacf9a166cc414fab119bd21",
+                                        "entity_id": "light.innr_gu10_3",
+                                        "domain": "light",
+                                        "brightness_pct": 100,
+                                        "flash": "short"
+                                    },
+                                    {
+                                        "type": "turn_off",
+                                        "device_id": "7490c3f3ba16e00addc68b498a9018bf",
+                                        "entity_id": "switch.aqara_interruptor",
+                                        "domain": "switch"
+                                    }
+                                ],
+                                "else": [
+                                    {
+                                        "type": "turn_on",
+                                        "device_id": "7490c3f3ba16e00addc68b498a9018bf",
+                                        "entity_id": "switch.aqara_interruptor",
+                                        "domain": "switch"
+                                    },
+                                    {
+                                        "type": "turn_on",
+                                        "device_id": "d685824419708b0e1feb3f5f637bfb66",
+                                        "entity_id": "light.innr_gu10_1",
+                                        "domain": "light",
+                                        "brightness_pct": 100,
+                                        "flash": "short"
+                                    }
+                                ]
+                            }
+                        ],
+                        "mode": "single"
+                    },
+                    "blueprint_inputs": null,
+                    "context": {
+                        "id": "01G5VXQF00TWW29S7QT2N8JXSD",
+                        "parent_id": "01G5VXQEZZ9088V95YMWBR0CNV",
+                        "user_id": null
+                    }
+                },
+                "short_dict": {
+                    "last_step": "action/0/then/3",
+                    "run_id": "543d9c69113e31360257eff94fec618b",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2022-06-18T17:28:18.176836+00:00",
+                        "finish": "2022-06-18T17:28:18.219393+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "1655551132377",
+                    "trigger": "event 'deconz_event'"
+                }
+            },
+            {
+                "extended_dict": {
+                    "last_step": "action/0/then/3",
+                    "run_id": "307ab781a6b2429196acd23a41f4379c",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2022-06-18T20:48:58.967220+00:00",
+                        "finish": "2022-06-18T20:48:59.001943+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "1655551132377",
+                    "trigger": "event 'deconz_event'",
+                    "trace": {
+                        "trigger/0": [
+                            {
+                                "path": "trigger/0",
+                                "timestamp": "2022-06-18T20:48:58.967427+00:00",
+                                "changed_variables": {
+                                    "this": {
+                                        "entity_id": "automation.devices_remote_ikea_middle",
+                                        "state": "on",
+                                        "attributes": {
+                                            "last_triggered": "2022-06-18T17:28:18.177239+00:00",
+                                            "mode": "single",
+                                            "current": 0,
+                                            "id": "1655551132377",
+                                            "friendly_name": "devices_remote_ikea_middle"
+                                        },
+                                        "last_changed": "2022-06-18T16:37:26.839638+00:00",
+                                        "last_updated": "2022-06-18T17:28:18.216137+00:00",
+                                        "context": {
+                                            "id": "01G5VXQF00TWW29S7QT2N8JXSD",
+                                            "parent_id": "01G5VXQEZZ9088V95YMWBR0CNV",
+                                            "user_id": null
+                                        }
+                                    },
+                                    "trigger": {
+                                        "id": "0",
+                                        "idx": "0",
+                                        "platform": "event",
+                                        "event": {
+                                            "event_type": "deconz_event",
+                                            "data": {
+                                                "id": "tradfri_remote_control",
+                                                "unique_id": "ec:1b:bd:ff:fe:7d:9f:e8",
+                                                "event": 1002,
+                                                "device_id": "f3193e7a714a8decd4732359f602e3c4"
+                                            },
+                                            "origin": "LOCAL",
+                                            "time_fired": "2022-06-18T20:48:58.965632+00:00",
+                                            "context": {
+                                                "id": "01G5W96XJN097A9CCWGPSJCRF3",
+                                                "parent_id": null,
+                                                "user_id": null
+                                            }
+                                        },
+                                        "description": "event 'deconz_event'"
+                                    }
+                                }
+                            }
+                        ],
+                        "action/0": [
+                            {
+                                "path": "action/0",
+                                "timestamp": "2022-06-18T20:48:58.968818+00:00",
+                                "changed_variables": {
+                                    "context": {
+                                        "id": "01G5W96XJP6B9ZPD0RDCCRDQ7B",
+                                        "parent_id": "01G5W96XJN097A9CCWGPSJCRF3",
+                                        "user_id": null
+                                    }
+                                },
+                                "result": {
+                                    "choice": "then"
+                                }
+                            }
+                        ],
+                        "action/0/if": [
+                            {
+                                "path": "action/0/if",
+                                "timestamp": "2022-06-18T20:48:58.968993+00:00",
+                                "result": {
+                                    "result": true
+                                }
+                            }
+                        ],
+                        "action/0/if/condition/0": [
+                            {
+                                "path": "action/0/if/condition/0",
+                                "timestamp": "2022-06-18T20:48:58.969077+00:00",
+                                "result": {
+                                    "result": true
+                                }
+                            },
+                            {
+                                "path": "action/0/if/condition/0",
+                                "timestamp": "2022-06-18T20:48:58.969124+00:00",
+                                "result": {
+                                    "result": true
+                                }
+                            }
+                        ],
+                        "action/0/if/condition/0/entity_id/0": [
+                            {
+                                "path": "action/0/if/condition/0/entity_id/0",
+                                "timestamp": "2022-06-18T20:48:58.969183+00:00",
+                                "result": {
+                                    "result": true,
+                                    "state": "on",
+                                    "wanted_state": "on"
+                                }
+                            }
+                        ],
+                        "action/0/then/0": [
+                            {
+                                "path": "action/0/then/0",
+                                "timestamp": "2022-06-18T20:48:58.970136+00:00"
+                            }
+                        ],
+                        "action/0/then/1": [
+                            {
+                                "path": "action/0/then/1",
+                                "timestamp": "2022-06-18T20:48:58.980867+00:00"
+                            }
+                        ],
+                        "action/0/then/2": [
+                            {
+                                "path": "action/0/then/2",
+                                "timestamp": "2022-06-18T20:48:58.987112+00:00"
+                            }
+                        ],
+                        "action/0/then/3": [
+                            {
+                                "path": "action/0/then/3",
+                                "timestamp": "2022-06-18T20:48:58.993425+00:00"
+                            }
+                        ]
+                    },
+                    "config": {
+                        "id": "1655551132377",
+                        "alias": "devices_remote_ikea_middle",
+                        "description": "",
+                        "trigger": [
+                            {
+                                "platform": "event",
+                                "event_type": "deconz_event",
+                                "event_data": {
+                                    "id": "tradfri_remote_control",
+                                    "event": 1002
+                                }
+                            }
+                        ],
+                        "action": [
+                            {
+                                "if": [
+                                    {
+                                        "condition": "device",
+                                        "type": "is_on",
+                                        "device_id": "7490c3f3ba16e00addc68b498a9018bf",
+                                        "entity_id": "switch.aqara_interruptor",
+                                        "domain": "switch"
+                                    }
+                                ],
+                                "then": [
+                                    {
+                                        "type": "turn_on",
+                                        "device_id": "d685824419708b0e1feb3f5f637bfb66",
+                                        "entity_id": "light.innr_gu10_1",
+                                        "domain": "light",
+                                        "brightness_pct": 100,
+                                        "flash": "short"
+                                    },
+                                    {
+                                        "type": "turn_on",
+                                        "device_id": "077811316dc2a3cd82ca934119df20a5",
+                                        "entity_id": "light.innr_gu10_2",
+                                        "domain": "light",
+                                        "brightness_pct": 100,
+                                        "flash": "short"
+                                    },
+                                    {
+                                        "type": "turn_on",
+                                        "device_id": "9468ca7adacf9a166cc414fab119bd21",
+                                        "entity_id": "light.innr_gu10_3",
+                                        "domain": "light",
+                                        "brightness_pct": 100,
+                                        "flash": "short"
+                                    },
+                                    {
+                                        "type": "turn_off",
+                                        "device_id": "7490c3f3ba16e00addc68b498a9018bf",
+                                        "entity_id": "switch.aqara_interruptor",
+                                        "domain": "switch"
+                                    }
+                                ],
+                                "else": [
+                                    {
+                                        "type": "turn_on",
+                                        "device_id": "7490c3f3ba16e00addc68b498a9018bf",
+                                        "entity_id": "switch.aqara_interruptor",
+                                        "domain": "switch"
+                                    },
+                                    {
+                                        "type": "turn_on",
+                                        "device_id": "d685824419708b0e1feb3f5f637bfb66",
+                                        "entity_id": "light.innr_gu10_1",
+                                        "domain": "light",
+                                        "brightness_pct": 100,
+                                        "flash": "short"
+                                    }
+                                ]
+                            }
+                        ],
+                        "mode": "single"
+                    },
+                    "blueprint_inputs": null,
+                    "context": {
+                        "id": "01G5W96XJP6B9ZPD0RDCCRDQ7B",
+                        "parent_id": "01G5W96XJN097A9CCWGPSJCRF3",
+                        "user_id": null
+                    }
+                },
+                "short_dict": {
+                    "last_step": "action/0/then/3",
+                    "run_id": "307ab781a6b2429196acd23a41f4379c",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2022-06-18T20:48:58.967220+00:00",
+                        "finish": "2022-06-18T20:48:59.001943+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "1655551132377",
+                    "trigger": "event 'deconz_event'"
+                }
+            }
+        ]
+    }
+}

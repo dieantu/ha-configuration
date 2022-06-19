@@ -1,0 +1,1246 @@
+{
+    "version": 1,
+    "minor_version": 1,
+    "key": "core.restore_state",
+    "data": [
+        {
+            "state": {
+                "entity_id": "person.antu",
+                "state": "home",
+                "attributes": {
+                    "editable": false,
+                    "id": "antu",
+                    "latitude": 41.153045654296875,
+                    "longitude": 1.211421620292905,
+                    "gps_accuracy": 35,
+                    "source": "device_tracker.antus_iphone",
+                    "user_id": "2312d288868f4f1e9b187a87b9777264",
+                    "friendly_name": "antu"
+                },
+                "last_changed": "2022-06-19T09:57:54.815155+00:00",
+                "last_updated": "2022-06-19T09:57:58.681402+00:00",
+                "context": {
+                    "id": "01G5XPBKRSMW3VDZBQGGS6MEDT",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "person.asgibert",
+                "state": "home",
+                "attributes": {
+                    "editable": false,
+                    "id": "asgibert",
+                    "latitude": 41.1530708,
+                    "longitude": 1.2114357,
+                    "gps_accuracy": 13,
+                    "source": "device_tracker.pixel_3_xl",
+                    "user_id": "8596762b17a64c40b536e0bac1c60ea5",
+                    "friendly_name": "asgibert"
+                },
+                "last_changed": "2022-06-19T10:17:27.581810+00:00",
+                "last_updated": "2022-06-19T17:29:13.169833+00:00",
+                "context": {
+                    "id": "01G5YG5VPHNJ910F7E7CWKT26A",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "person.pilar",
+                "state": "unknown",
+                "attributes": {
+                    "editable": false,
+                    "id": "pilar",
+                    "friendly_name": "Pilar"
+                },
+                "last_changed": "2022-06-19T09:57:54.820663+00:00",
+                "last_updated": "2022-06-19T09:57:58.681878+00:00",
+                "context": {
+                    "id": "01G5XPBKRSA0WJNS4FEJ8SD1HW",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "button.mss210_37f9_identify",
+                "state": "unknown",
+                "attributes": {
+                    "friendly_name": "MSS210-37f9 Identify"
+                },
+                "last_changed": "2022-06-19T09:57:58.529684+00:00",
+                "last_updated": "2022-06-19T09:57:58.529684+00:00",
+                "context": {
+                    "id": "01G5XPBKM1PDFA881NZW6TB20T",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "button.menjador_ordinador_lectura_store_current_scene",
+                "state": "unknown",
+                "attributes": {
+                    "icon": "mdi:inbox-arrow-down",
+                    "friendly_name": "Menjador Ordinador Lectura Store Current Scene"
+                },
+                "last_changed": "2022-06-19T09:57:56.889314+00:00",
+                "last_updated": "2022-06-19T09:57:56.889314+00:00",
+                "context": {
+                    "id": "01G5XPBJ0SQ47MYJEA9JKTH2C5",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "button.menjador_pelicula_store_current_scene",
+                "state": "unknown",
+                "attributes": {
+                    "icon": "mdi:inbox-arrow-down",
+                    "friendly_name": "Menjador Pel\u00edcula Store Current Scene"
+                },
+                "last_changed": "2022-06-19T09:57:56.889658+00:00",
+                "last_updated": "2022-06-19T09:57:56.889658+00:00",
+                "context": {
+                    "id": "01G5XPBJ0S2CFN3DHAG7B3ZDHG",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "button.menjador_totes_enceses_store_current_scene",
+                "state": "unknown",
+                "attributes": {
+                    "icon": "mdi:inbox-arrow-down",
+                    "friendly_name": "Menjador Totes enceses Store Current Scene"
+                },
+                "last_changed": "2022-06-19T09:57:56.890073+00:00",
+                "last_updated": "2022-06-19T09:57:56.890073+00:00",
+                "context": {
+                    "id": "01G5XPBJ0TDFC6D2DSDDM36BZN",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "button.menjador_apagades_store_current_scene",
+                "state": "unknown",
+                "attributes": {
+                    "icon": "mdi:inbox-arrow-down",
+                    "friendly_name": "Menjador Apagades Store Current Scene"
+                },
+                "last_changed": "2022-06-19T09:57:56.890420+00:00",
+                "last_updated": "2022-06-19T09:57:56.890420+00:00",
+                "context": {
+                    "id": "01G5XPBJ0THCF1DZQJJSANWQCT",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "scene.menjador_ordinador_lectura",
+                "state": "unknown",
+                "attributes": {
+                    "friendly_name": "Menjador Ordinador Lectura"
+                },
+                "last_changed": "2022-06-19T09:57:56.890726+00:00",
+                "last_updated": "2022-06-19T09:57:56.890726+00:00",
+                "context": {
+                    "id": "01G5XPBJ0TNDTQ2B4HWNWHTQ9F",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "scene.menjador_pelicula",
+                "state": "unknown",
+                "attributes": {
+                    "friendly_name": "Menjador Pel\u00edcula"
+                },
+                "last_changed": "2022-06-19T09:57:56.890998+00:00",
+                "last_updated": "2022-06-19T09:57:56.890998+00:00",
+                "context": {
+                    "id": "01G5XPBJ0T7BJ3Y0AC7B69GJGH",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "scene.menjador_totes_enceses",
+                "state": "unknown",
+                "attributes": {
+                    "friendly_name": "Menjador Totes enceses"
+                },
+                "last_changed": "2022-06-19T09:57:56.891265+00:00",
+                "last_updated": "2022-06-19T09:57:56.891265+00:00",
+                "context": {
+                    "id": "01G5XPBJ0VQFS8MA4YB33AYHZR",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "scene.menjador_apagades",
+                "state": "unknown",
+                "attributes": {
+                    "friendly_name": "Menjador Apagades"
+                },
+                "last_changed": "2022-06-19T09:57:56.891551+00:00",
+                "last_updated": "2022-06-19T09:57:56.891551+00:00",
+                "context": {
+                    "id": "01G5XPBJ0VCS5SZGVWQS79N85A",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.antus_iphone_activity",
+                "state": "Stationary",
+                "attributes": {
+                    "Confidence": "High",
+                    "Types": [
+                        "Stationary"
+                    ],
+                    "icon": "mdi:human-male",
+                    "friendly_name": "Antu\u2019s iPhone Activity"
+                },
+                "last_changed": "2022-06-19T09:57:56.908667+00:00",
+                "last_updated": "2022-06-19T09:57:56.908667+00:00",
+                "context": {
+                    "id": "01G5XPBJ1CPD7VCDGV6ZCPPNC1",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.antus_iphone_distance",
+                "state": "2040",
+                "attributes": {
+                    "unit_of_measurement": "m",
+                    "icon": "mdi:hiking",
+                    "friendly_name": "Antu\u2019s iPhone Distance"
+                },
+                "last_changed": "2022-06-19T09:57:56.909140+00:00",
+                "last_updated": "2022-06-19T09:57:56.909140+00:00",
+                "context": {
+                    "id": "01G5XPBJ1DAWH0AJ49719YX25N",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.antus_iphone_floors_ascended",
+                "state": "22",
+                "attributes": {
+                    "unit_of_measurement": "floors",
+                    "icon": "mdi:stairs-up",
+                    "friendly_name": "Antu\u2019s iPhone Floors Ascended"
+                },
+                "last_changed": "2022-06-19T09:57:56.909452+00:00",
+                "last_updated": "2022-06-19T09:57:56.909452+00:00",
+                "context": {
+                    "id": "01G5XPBJ1DE44HBQ9NC8DK0M7E",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.antus_iphone_floors_descended",
+                "state": "22",
+                "attributes": {
+                    "unit_of_measurement": "floors",
+                    "icon": "mdi:stairs-down",
+                    "friendly_name": "Antu\u2019s iPhone Floors Descended"
+                },
+                "last_changed": "2022-06-19T09:57:56.909732+00:00",
+                "last_updated": "2022-06-19T09:57:56.909732+00:00",
+                "context": {
+                    "id": "01G5XPBJ1DDPRK16S2C247BTYF",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.antus_iphone_steps",
+                "state": "2705",
+                "attributes": {
+                    "unit_of_measurement": "steps",
+                    "icon": "mdi:walk",
+                    "friendly_name": "Antu\u2019s iPhone Steps"
+                },
+                "last_changed": "2022-06-19T09:57:56.910253+00:00",
+                "last_updated": "2022-06-19T09:57:56.910253+00:00",
+                "context": {
+                    "id": "01G5XPBJ1E20GXRXPSAE9X9VW8",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.antus_iphone_battery_level",
+                "state": "70",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "device_class": "battery",
+                    "icon": "mdi:battery-70",
+                    "friendly_name": "Antu\u2019s iPhone Battery Level"
+                },
+                "last_changed": "2022-06-19T09:57:56.910551+00:00",
+                "last_updated": "2022-06-19T09:57:56.910551+00:00",
+                "context": {
+                    "id": "01G5XPBJ1EYF30J4T5KMY3RRR1",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.antus_iphone_battery_state",
+                "state": "Not Charging",
+                "attributes": {
+                    "Low Power Mode": true,
+                    "icon": "mdi:battery-70",
+                    "friendly_name": "Antu\u2019s iPhone Battery State"
+                },
+                "last_changed": "2022-06-19T09:57:56.910865+00:00",
+                "last_updated": "2022-06-19T09:57:56.910865+00:00",
+                "context": {
+                    "id": "01G5XPBJ1EPAGCTN4B0DBQAZE1",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.antus_iphone_storage",
+                "state": "50.68",
+                "attributes": {
+                    "Available": "16,27 GB",
+                    "Available (Important)": "54,62 GB",
+                    "Available (Opportunistic)": "64,80 GB",
+                    "Total": "127,88 GB",
+                    "unit_of_measurement": "% available",
+                    "icon": "mdi:database",
+                    "friendly_name": "Antu\u2019s iPhone Storage"
+                },
+                "last_changed": "2022-06-19T09:57:56.911158+00:00",
+                "last_updated": "2022-06-19T09:57:56.911158+00:00",
+                "context": {
+                    "id": "01G5XPBJ1F2R3HHC2PAWTM02KR",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.antus_iphone_average_active_pace",
+                "state": "1",
+                "attributes": {
+                    "unit_of_measurement": "m/s",
+                    "icon": "mdi:speedometer",
+                    "friendly_name": "Antu\u2019s iPhone Average Active Pace"
+                },
+                "last_changed": "2022-06-19T09:57:56.911557+00:00",
+                "last_updated": "2022-06-19T09:57:56.911557+00:00",
+                "context": {
+                    "id": "01G5XPBJ1FXR604NAC6GSY8PR8",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.antus_iphone_ssid",
+                "state": "MOVISTAR_PLUS_C5CC",
+                "attributes": {
+                    "icon": "mdi:wifi",
+                    "friendly_name": "Antu\u2019s iPhone SSID"
+                },
+                "last_changed": "2022-06-19T09:57:56.911896+00:00",
+                "last_updated": "2022-06-19T09:57:56.911896+00:00",
+                "context": {
+                    "id": "01G5XPBJ1F3CH2D1TCRV638TZE",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.antus_iphone_bssid",
+                "state": "80:78:71:9b:c5:da",
+                "attributes": {
+                    "icon": "mdi:wifi-star",
+                    "friendly_name": "Antu\u2019s iPhone BSSID"
+                },
+                "last_changed": "2022-06-19T09:57:56.912344+00:00",
+                "last_updated": "2022-06-19T09:57:56.912344+00:00",
+                "context": {
+                    "id": "01G5XPBJ1GSFH7YV476P9K3C5T",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.antus_iphone_connection_type",
+                "state": "Wi-Fi",
+                "attributes": {
+                    "icon": "mdi:wifi",
+                    "friendly_name": "Antu\u2019s iPhone Connection Type"
+                },
+                "last_changed": "2022-06-19T09:57:56.912752+00:00",
+                "last_updated": "2022-06-19T09:57:56.912752+00:00",
+                "context": {
+                    "id": "01G5XPBJ1G2N4KTX5P0PTNFNEH",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.antus_iphone_sim_1",
+                "state": "Vodafone",
+                "attributes": {
+                    "Allows VoIP": true,
+                    "Carrier ID": "0000000100000001",
+                    "Carrier Name": "Vodafone",
+                    "Current Radio Technology": "Long-Term Evolution (LTE)",
+                    "ISO Country Code": "es",
+                    "Mobile Country Code": "214",
+                    "Mobile Network Code": "01",
+                    "icon": "mdi:sim",
+                    "friendly_name": "Antu\u2019s iPhone SIM 1"
+                },
+                "last_changed": "2022-06-19T09:57:56.913076+00:00",
+                "last_updated": "2022-06-19T09:57:56.913076+00:00",
+                "context": {
+                    "id": "01G5XPBJ1H1B0PKCY7G9CVPRWV",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.antus_iphone_sim_2",
+                "state": "N/A",
+                "attributes": {
+                    "Allows VoIP": true,
+                    "Carrier ID": "0000000100000002",
+                    "Carrier Name": "N/A",
+                    "ISO Country Code": "N/A",
+                    "Mobile Country Code": "N/A",
+                    "Mobile Network Code": "N/A",
+                    "icon": "mdi:sim",
+                    "friendly_name": "Antu\u2019s iPhone SIM 2"
+                },
+                "last_changed": "2022-06-19T09:57:56.913381+00:00",
+                "last_updated": "2022-06-19T09:57:56.913381+00:00",
+                "context": {
+                    "id": "01G5XPBJ1HS5TFXDREGDNMMZPR",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.antus_iphone_geocoded_location",
+                "state": "Sant Pere 40",
+                "attributes": {
+                    "Administrative Area": "Tarragona",
+                    "Areas Of Interest": "N/A",
+                    "Country": "Spain",
+                    "Inland Water": "N/A",
+                    "ISO Country Code": "ES",
+                    "Locality": "Constant\u00ed",
+                    "Location": [
+                        41.153045654296875,
+                        1.211421620292905
+                    ],
+                    "Name": "Carrer de Sant Pere, 51",
+                    "Ocean": "N/A",
+                    "Postal Code": "43120",
+                    "Sub Administrative Area": "Tarragon\u00e8s",
+                    "Sub Locality": "Constant\u00ed",
+                    "Sub Thoroughfare": "51",
+                    "Thoroughfare": "Carrer de Sant Pere",
+                    "Time Zone": "Europe/Madrid",
+                    "Zones": [
+                        "Sant Pere 40"
+                    ],
+                    "icon": "mdi:map",
+                    "friendly_name": "Antu\u2019s iPhone Geocoded Location"
+                },
+                "last_changed": "2022-06-19T09:57:56.913689+00:00",
+                "last_updated": "2022-06-19T09:57:56.913689+00:00",
+                "context": {
+                    "id": "01G5XPBJ1HPCJVAB7QMB4TZF4P",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.antus_iphone_last_update_trigger",
+                "state": "Periodic",
+                "attributes": {
+                    "icon": "mdi:cellphone-wireless",
+                    "friendly_name": "Antu\u2019s iPhone Last Update Trigger"
+                },
+                "last_changed": "2022-06-19T09:57:56.914104+00:00",
+                "last_updated": "2022-06-19T09:57:56.914104+00:00",
+                "context": {
+                    "id": "01G5XPBJ1J0TPADWXN46TJA3WP",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.pixel_3_xl_battery_level",
+                "state": "47",
+                "attributes": {
+                    "state_class": "measurement",
+                    "unit_of_measurement": "%",
+                    "device_class": "battery",
+                    "icon": "mdi:battery-40",
+                    "friendly_name": "Pixel 3 XL Battery Level"
+                },
+                "last_changed": "2022-06-19T17:29:02.594455+00:00",
+                "last_updated": "2022-06-19T17:29:02.594455+00:00",
+                "context": {
+                    "id": "01G5YG5HC2TX4R4E68CXMWHNZM",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.pixel_3_xl_battery_temperature",
+                "state": "33.3",
+                "attributes": {
+                    "unit_of_measurement": "\u00b0C",
+                    "device_class": "temperature",
+                    "icon": "mdi:battery",
+                    "friendly_name": "Pixel 3 XL Battery Temperature"
+                },
+                "last_changed": "2022-06-19T17:29:02.595656+00:00",
+                "last_updated": "2022-06-19T17:29:02.595656+00:00",
+                "context": {
+                    "id": "01G5YG5HC31MS0H5RPH60DEMVY",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.pixel_3_xl_geocoded_location",
+                "state": "Carrer Sant Pere, 40, 43120 Constant\u00ed, Tarragona, Espanya",
+                "attributes": {
+                    "administrative_area": "Catalunya",
+                    "country": "Espanya",
+                    "iso_country_code": "ES",
+                    "latitude": 41.1531,
+                    "locality": "Constant\u00ed",
+                    "longitude": 1.2114458,
+                    "postal_code": "43120",
+                    "sub_administrative_area": "Tarragona",
+                    "sub_locality": "null",
+                    "sub_thoroughfare": "40",
+                    "thoroughfare": "Carrer Sant Pere",
+                    "icon": "mdi:map",
+                    "friendly_name": "Pixel 3 XL Geocoded Location"
+                },
+                "last_changed": "2022-06-19T15:24:19.452077+00:00",
+                "last_updated": "2022-06-19T15:24:19.452077+00:00",
+                "context": {
+                    "id": "01G5Y915KW9SXJGY3RKR8Q02X7",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.pixel_3_xl_charger_type",
+                "state": "none",
+                "attributes": {
+                    "icon": "mdi:battery",
+                    "friendly_name": "Pixel 3 XL Charger Type"
+                },
+                "last_changed": "2022-06-19T09:57:56.915270+00:00",
+                "last_updated": "2022-06-19T09:57:56.915270+00:00",
+                "context": {
+                    "id": "01G5XPBJ1K765P80MDBJPDPG55",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.pixel_3_xl_battery_state",
+                "state": "discharging",
+                "attributes": {
+                    "icon": "mdi:battery-minus",
+                    "friendly_name": "Pixel 3 XL Battery State"
+                },
+                "last_changed": "2022-06-19T09:57:56.915589+00:00",
+                "last_updated": "2022-06-19T09:57:56.915589+00:00",
+                "context": {
+                    "id": "01G5XPBJ1KK8SW8FCZDE2V5P0E",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.antus_iphone_focus",
+                "state": "on",
+                "attributes": {
+                    "icon": "mdi:moon-waning-crescent",
+                    "friendly_name": "Antu\u2019s iPhone Focus"
+                },
+                "last_changed": "2022-06-19T09:57:58.071591+00:00",
+                "last_updated": "2022-06-19T09:57:58.071591+00:00",
+                "context": {
+                    "id": "01G5XPBK5QDQR1KJQCY5A19SXY",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.pixel_3_xl_is_charging",
+                "state": "off",
+                "attributes": {
+                    "device_class": "plug",
+                    "icon": "mdi:power-plug-off",
+                    "friendly_name": "Pixel 3 XL Is Charging"
+                },
+                "last_changed": "2022-06-19T09:57:58.072000+00:00",
+                "last_updated": "2022-06-19T09:57:58.072000+00:00",
+                "context": {
+                    "id": "01G5XPBK5RQAR1VRK7V2HWNCN9",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "device_tracker.antus_iphone",
+                "state": "home",
+                "attributes": {
+                    "source_type": "gps",
+                    "battery_level": 79,
+                    "latitude": 41.153045654296875,
+                    "longitude": 1.211421620292905,
+                    "gps_accuracy": 35,
+                    "altitude": 65.61151504516602,
+                    "vertical_accuracy": 22.878135681152344,
+                    "friendly_name": "Antu\u2019s iPhone"
+                },
+                "last_changed": "2022-06-19T09:57:58.375245+00:00",
+                "last_updated": "2022-06-19T09:57:58.375245+00:00",
+                "context": {
+                    "id": "01G5XPBKF7MEZW656772DZ54TF",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "device_tracker.pixel_3_xl",
+                "state": "home",
+                "attributes": {
+                    "source_type": "gps",
+                    "latitude": 41.1530708,
+                    "longitude": 1.2114357,
+                    "gps_accuracy": 13,
+                    "altitude": 115,
+                    "course": 130,
+                    "speed": 0,
+                    "vertical_accuracy": 1,
+                    "friendly_name": "Pixel 3 XL"
+                },
+                "last_changed": "2022-06-19T17:29:13.168972+00:00",
+                "last_updated": "2022-06-19T17:29:13.168972+00:00",
+                "context": {
+                    "id": "01G5YG5VPGM5X25B0ND47MPFX4",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.devices_remote_ikea_middle",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2022-06-19T14:34:45.424330+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1655551132377",
+                    "friendly_name": "devices_remote_ikea_middle"
+                },
+                "last_changed": "2022-06-19T09:57:58.409210+00:00",
+                "last_updated": "2022-06-19T14:34:45.458352+00:00",
+                "context": {
+                    "id": "01G5Y66D9FC7CFR9S5PZDQ82FG",
+                    "parent_id": "01G5Y66D9EEKTKATYQ1QJX2VMC",
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.devices_remote_ikea_right",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2022-06-18T11:25:10.755818+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1655551343196",
+                    "friendly_name": "devices_remote_ikea_right"
+                },
+                "last_changed": "2022-06-19T09:57:58.409732+00:00",
+                "last_updated": "2022-06-19T09:57:58.409732+00:00",
+                "context": {
+                    "id": "01G5XPBKG914EDS2EENVTN2CGK",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.devices_remote_ikea_left",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2022-06-18T11:25:25.354309+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1655551501074",
+                    "friendly_name": "devices_remote_ikea_left"
+                },
+                "last_changed": "2022-06-19T09:57:58.410126+00:00",
+                "last_updated": "2022-06-19T09:57:58.410126+00:00",
+                "context": {
+                    "id": "01G5XPBKGAHKPDCGH0WBZY3DAH",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.system_default_theme",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2022-06-19T09:57:58.767654+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "system_default_theme",
+                    "friendly_name": "System - Default Theme"
+                },
+                "last_changed": "2022-06-19T09:57:58.410502+00:00",
+                "last_updated": "2022-06-19T09:57:58.805565+00:00",
+                "context": {
+                    "id": "01G5XPBKVFW819EX7DXS2N3JNC",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.system_notifications_home_assistant_restarts",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2022-06-19T09:57:58.768420+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "system_notification_restart",
+                    "friendly_name": "System - Notifications - Home Assistant Restarts"
+                },
+                "last_changed": "2022-06-19T09:57:58.410857+00:00",
+                "last_updated": "2022-06-19T09:58:06.647890+00:00",
+                "context": {
+                    "id": "01G5XPBVHQAWWSDYNZJ0H7YPK7",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.system_notification_new_device_connected",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2022-06-19T14:30:07.194674+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "system_notifications_new_device",
+                    "friendly_name": "System - Notification - New Device Connected"
+                },
+                "last_changed": "2022-06-19T09:57:58.411202+00:00",
+                "last_updated": "2022-06-19T14:30:07.785337+00:00",
+                "context": {
+                    "id": "01G5Y5XXJS9B8YKBR66XSBNKVB",
+                    "parent_id": "01G5Y5XXJQEJWZ6QWS512BR6D5",
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.system_notification_home_assistant_update_notification",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": null,
+                    "mode": "single",
+                    "current": 0,
+                    "id": "system_notifications_update_notification",
+                    "friendly_name": "System - Notification - Home Assistant Update Notification"
+                },
+                "last_changed": "2022-06-19T09:57:58.411693+00:00",
+                "last_updated": "2022-06-19T09:57:58.411693+00:00",
+                "context": {
+                    "id": "01G5XPBKGBCTG66Q83NTEKMN51",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "device_tracker.ipad_de_antoni",
+                "state": "home",
+                "attributes": {
+                    "source_type": "gps",
+                    "battery_level": 100,
+                    "latitude": 41.153076171875,
+                    "longitude": 1.211366560324741,
+                    "gps_accuracy": 35,
+                    "altitude": 64.97971725463867,
+                    "vertical_accuracy": 27.19258689880371,
+                    "friendly_name": "iPad de: Antoni"
+                },
+                "last_changed": "2022-06-19T14:30:54.519968+00:00",
+                "last_updated": "2022-06-19T14:30:54.519968+00:00",
+                "context": {
+                    "id": "01G5Y5ZBSQG2X793ZE6FXZ8HN3",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.ipad_de_antoni_battery_level",
+                "state": "100",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "device_class": "battery",
+                    "icon": "mdi:battery",
+                    "friendly_name": "iPad de: Antoni Battery Level"
+                },
+                "last_changed": "2022-06-19T14:30:07.546183+00:00",
+                "last_updated": "2022-06-19T14:30:07.546183+00:00",
+                "context": {
+                    "id": "01G5Y5XXXT14A5B6JQK35FWZYQ",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.ipad_de_antoni_activity",
+                "state": "Unknown",
+                "attributes": {
+                    "Confidence": "High",
+                    "Types": [
+                        "Unknown"
+                    ],
+                    "icon": "mdi:help-circle",
+                    "friendly_name": "iPad de: Antoni Activity"
+                },
+                "last_changed": "2022-06-19T14:30:07.571915+00:00",
+                "last_updated": "2022-06-19T14:30:07.571915+00:00",
+                "context": {
+                    "id": "01G5Y5XXYKQAHMC1KSQQ6TX8A5",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.ipad_de_antoni_battery_state",
+                "state": "Full",
+                "attributes": {
+                    "Low Power Mode": false,
+                    "icon": "mdi:battery",
+                    "friendly_name": "iPad de: Antoni Battery State"
+                },
+                "last_changed": "2022-06-19T14:30:07.654723+00:00",
+                "last_updated": "2022-06-19T14:30:07.654723+00:00",
+                "context": {
+                    "id": "01G5Y5XY16E8CPZCKN5429TYVF",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.ipad_de_antoni_connection_type",
+                "state": "Wi-Fi",
+                "attributes": {
+                    "icon": "mdi:wifi",
+                    "friendly_name": "iPad de: Antoni Connection Type"
+                },
+                "last_changed": "2022-06-19T14:30:07.680330+00:00",
+                "last_updated": "2022-06-19T14:30:07.680330+00:00",
+                "context": {
+                    "id": "01G5Y5XY20RTP0ASY9TQAPQ293",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.ipad_de_antoni_geocoded_location",
+                "state": "Carrer de Sant Pere, 53\n43120 Constant\u00ed Tarragona\nEspanya",
+                "attributes": {
+                    "Administrative Area": "Tarragona",
+                    "Areas Of Interest": "N/A",
+                    "Country": "Espanya",
+                    "Inland Water": "N/A",
+                    "ISO Country Code": "ES",
+                    "Locality": "Constant\u00ed",
+                    "Location": [
+                        41.153076171875,
+                        1.211366560324741
+                    ],
+                    "Name": "Carrer de Sant Pere, 53",
+                    "Ocean": "N/A",
+                    "Postal Code": "43120",
+                    "Sub Administrative Area": "Tarragon\u00e8s",
+                    "Sub Locality": "Constant\u00ed",
+                    "Sub Thoroughfare": "53",
+                    "Thoroughfare": "Carrer de Sant Pere",
+                    "Time Zone": "Europe/Madrid",
+                    "Zones": [
+                        "Sant Pere 40",
+                        "Casa"
+                    ],
+                    "icon": "mdi:map",
+                    "friendly_name": "iPad de: Antoni Geocoded Location"
+                },
+                "last_changed": "2022-06-19T14:30:54.553834+00:00",
+                "last_updated": "2022-06-19T14:30:54.553834+00:00",
+                "context": {
+                    "id": "01G5Y5ZBTSR35C8948WWET2X84",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.ipad_de_antoni_last_update_trigger",
+                "state": "Launch",
+                "attributes": {
+                    "icon": "mdi:cellphone-wireless",
+                    "friendly_name": "iPad de: Antoni Last Update Trigger"
+                },
+                "last_changed": "2022-06-19T16:30:57.085316+00:00",
+                "last_updated": "2022-06-19T16:30:57.085316+00:00",
+                "context": {
+                    "id": "01G5YCV5HXT56M6WVZB85C1299",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.ipad_de_antoni_storage",
+                "state": "54.68",
+                "attributes": {
+                    "Available": "18,76 GB",
+                    "Available (Important)": "19,61 GB",
+                    "Available (Opportunistic)": "17,49 GB",
+                    "Total": "31,99 GB",
+                    "unit_of_measurement": "% available",
+                    "icon": "mdi:database",
+                    "friendly_name": "iPad de: Antoni Storage"
+                },
+                "last_changed": "2022-06-19T16:30:57.083980+00:00",
+                "last_updated": "2022-06-19T16:30:57.083980+00:00",
+                "context": {
+                    "id": "01G5YCV5HV423PZEBPM0FR2NMQ",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.ipad_de_antoni_focus",
+                "state": "off",
+                "attributes": {
+                    "icon": "mdi:moon-waning-crescent",
+                    "friendly_name": "iPad de: Antoni Focus"
+                },
+                "last_changed": "2022-06-19T14:30:07.729348+00:00",
+                "last_updated": "2022-06-19T14:30:07.729348+00:00",
+                "context": {
+                    "id": "01G5Y5XY3H9J2NNAQJ8SKKE3MY",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.ipad_de_antoni_ssid",
+                "state": "MOVISTAR_PLUS_C5CC",
+                "attributes": {
+                    "icon": "mdi:wifi",
+                    "friendly_name": "iPad de: Antoni SSID"
+                },
+                "last_changed": "2022-06-19T14:30:07.793714+00:00",
+                "last_updated": "2022-06-19T14:30:07.793714+00:00",
+                "context": {
+                    "id": "01G5Y5XY5H3YWXNR016N10J2SE",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.ipad_de_antoni_bssid",
+                "state": "80:78:71:9b:c5:da",
+                "attributes": {
+                    "icon": "mdi:wifi-star",
+                    "friendly_name": "iPad de: Antoni BSSID"
+                },
+                "last_changed": "2022-06-19T14:30:07.807329+00:00",
+                "last_updated": "2022-06-19T14:30:07.807329+00:00",
+                "context": {
+                    "id": "01G5Y5XY5ZRPYKDH6TG1E497D2",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-19T17:44:15.215862+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.devices_aqara_wall_switch",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2022-06-18T10:56:59.968226+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1655549512470",
+                    "friendly_name": "devices - aqara_wall_switch - off"
+                },
+                "last_changed": "2022-06-18T11:09:32.216409+00:00",
+                "last_updated": "2022-06-18T11:09:32.216409+00:00",
+                "context": {
+                    "id": "01G5V81XNRZMA44R3SXGPRS4Q1",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-18T11:09:42.236076+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.devices_aqara_wall_switch_on",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2022-06-18T10:57:49.082877+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1655549698409",
+                    "friendly_name": "devices - aqara_wall_switch - on"
+                },
+                "last_changed": "2022-06-18T10:58:04.983153+00:00",
+                "last_updated": "2022-06-18T10:58:04.983153+00:00",
+                "context": {
+                    "id": "01G5V7CYHQ5GY29FTZKK4K4HDC",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-06-18T11:09:30.797175+00:00"
+        }
+    ]
+}

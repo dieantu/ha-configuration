@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "minor_version": 1,
+    "key": "lovelace_resources",
+    "data": {
+        "items": [
+            {
+                "url": "/hacsfiles/mini-media-player/mini-media-player-bundle.js?hacstag=1485208381164",
+                "type": "module",
+                "id": "e30f16ca618d4560ae110c0d5f5162ef"
+            }
+        ]
+    }
+}

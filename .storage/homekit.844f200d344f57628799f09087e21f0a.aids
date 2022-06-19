@@ -1,0 +1,31 @@
+{
+    "version": 1,
+    "minor_version": 1,
+    "key": "homekit.844f200d344f57628799f09087e21f0a.aids",
+    "data": {
+        "allocations": {
+            "switch_as_x.fan.b808286681a775df4af7ded1e1a66ab9": 1450803832,
+            "homekit_controller.switch.homekit-518533201214352-12": 2832900470,
+            "mobile_app.binary_sensor.6a16f8efe733d07334aef111d7ee608563790df6d168483895033217922c1464_focus": 3895997125,
+            "deconz.binary_sensor.00:15:8d:00:07:6a:c2:ef-01-0006": 1023923731,
+            "deconz.binary_sensor.00:15:8d:00:05:2d:d4:ae-01-0006": 1424940924,
+            "deconz.binary_sensor.00:15:8d:00:03:a4:99:fb-01-0406": 1196623849,
+            "deconz.binary_sensor.00:15:8d:00:03:a4:99:d1-01-0406": 937567242,
+            "deconz.binary_sensor.00:15:8d:00:08:08:fc:3c-01-0101": 2376079768,
+            "deconz.switch.54:ef:44:10:00:22:a6:51-01": 4154723084,
+            "deconz.light.00:17:88:01:0b:2d:f0:07-0b": 2489750215,
+            "deconz.light.00:17:88:01:0c:30:40:30-0b": 3539063407,
+            "deconz.light.00:17:88:01:0c:30:6d:6d-0b": 4155020518,
+            "deconz.light.c4:98:86:00:00:06:f1:2d-01": 3451871677,
+            "deconz.light.00:17:88:01:0c:35:89:fb-0b": 781156228,
+            "deconz.light.c4:98:86:00:00:06:29:78-01": 4041640966,
+            "deconz.light.c4:98:86:00:00:07:0c:e3-01": 1445642310,
+            "deconz.light.00:17:88:01:0c:35:89:fa-0b": 1163025555,
+            "deconz.light.00:17:88:01:06:ff:40:91-0b": 3740074086,
+            "deconz.light.00:17:88:01:06:ff:40:44-0b": 3002416132,
+            "deconz.light.00212E07826C-/groups/1": 10059896,
+            "deconz.light.00212E07826C-/groups/2": 60392753,
+            "deconz.light.00212E07826C-/groups/6": 127503229
+        }
+    }
+}

@@ -1,0 +1,8 @@
+---
+## configuration ##
+# Home Assistant configuration file. We are using packages in this
+# configuration.
+# Learn more https://www.home-assistant.io/docs/configuration/packages/
+
+homeassistant:
+  packages: !include_dir_named packages

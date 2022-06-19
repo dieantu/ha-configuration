@@ -1,0 +1,6 @@
+####
+LINKS
+####
+homeassistant: ubuntu.local:8123
+
+Deconz Phoscon: ubuntu.local:8080

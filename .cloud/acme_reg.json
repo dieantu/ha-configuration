@@ -1,0 +1,15 @@
+{
+    "body": {
+        "contact": [
+            "mailto:whoami@opsec.dieantu.com"
+        ],
+        "key": {
+            "e": "AQAB",
+            "kty": "RSA",
+            "n": "2l5tg9RHRFNKW-KQSI7VjladjPITZh6DYmuOqupFV6ihBFNYdNGwZCU8VHYQoBpgV4hoxAyMP3g0crhcDh1SgeJy_8YqXNFRdWLpydrYcpX1hMt8aOih3pf48LICtL6c3_MkWhGHv8N_r00vutxxS5N238zgB_1pp8Oj23UsPZXWDAIq5MDmp1LGHTcyLLnWUlpmpGjcp009HZAb6BI7MYhCzsCOZwo5ldS79vxVbnMFPhuLBeDUEY-Kt5XkwQ62oXfmyWmTuARlD_-AtevTiqNT3iINDQuiGHMGXsayyA9JKHaBI44kNmyEe5d2an4H_SryrGRp-KjmmYqHjYcvjQ"
+        },
+        "status": "valid"
+    },
+    "terms_of_service": "https://letsencrypt.org/documents/LE-SA-v1.2-November-15-2017.pdf",
+    "uri": "https://acme-v02.api.letsencrypt.org/acme/acct/594304796"
+}

@@ -1,0 +1,17 @@
+---
+## system_default_theme ##
+# Changes default theme when Home Assistant reloads.
+
+automation:
+
+- id: 'system_default_theme'
+  alias: System - Default Theme
+  description: 'Set Theme on HA Start'
+  trigger:
+  - event: start
+    platform: homeassistant
+  action:
+  - data:
+      name: ios-dark-mode
+    service: frontend.set_theme
+

@@ -1,0 +1,149 @@
+---
+## remote_ikea ##
+# Automations for the Ikea Remote
+
+automation:
+
+  - id: '1655551132377'
+    alias: devices_remote_ikea_middle
+    description: ''
+    trigger:
+    - platform: event
+      event_type: deconz_event
+      event_data:
+        id: tradfri_remote_control
+        event: 1002
+    action:
+    - if:
+      - condition: device
+        type: is_on
+        device_id: 7490c3f3ba16e00addc68b498a9018bf
+        entity_id: switch.aqara_interruptor
+        domain: switch
+      then:
+      - type: turn_on
+        device_id: d685824419708b0e1feb3f5f637bfb66
+        entity_id: light.innr_gu10_1
+        domain: light
+        brightness_pct: 100
+        flash: short
+      - type: turn_on
+        device_id: 077811316dc2a3cd82ca934119df20a5
+        entity_id: light.innr_gu10_2
+        domain: light
+        brightness_pct: 100
+        flash: short
+      - type: turn_on
+        device_id: 9468ca7adacf9a166cc414fab119bd21
+        entity_id: light.innr_gu10_3
+        domain: light
+        brightness_pct: 100
+        flash: short
+      - type: turn_off
+        device_id: 7490c3f3ba16e00addc68b498a9018bf
+        entity_id: switch.aqara_interruptor
+        domain: switch
+      else:
+      - type: turn_on
+        device_id: 7490c3f3ba16e00addc68b498a9018bf
+        entity_id: switch.aqara_interruptor
+        domain: switch
+      - type: turn_on
+        device_id: d685824419708b0e1feb3f5f637bfb66
+        entity_id: light.innr_gu10_1
+        domain: light
+        brightness_pct: 100
+        flash: short
+    mode: single
+  - id: '1655551343196'
+    alias: devices_remote_ikea_right
+    description: ''
+    trigger:
+    - platform: event
+      event_type: deconz_event
+      event_data:
+        id: tradfri_remote_control
+        event: 5002
+    action:
+    - if:
+      - condition: device
+        type: is_on
+        device_id: 7490c3f3ba16e00addc68b498a9018bf
+        entity_id: switch.aqara_interruptor
+        domain: switch
+      then:
+      - type: turn_on
+        device_id: d685824419708b0e1feb3f5f637bfb66
+        entity_id: light.innr_gu10_1
+        domain: light
+        brightness_pct: 5
+        flash: short
+      - type: turn_off
+        device_id: 077811316dc2a3cd82ca934119df20a5
+        entity_id: light.innr_gu10_2
+        domain: light
+      - type: turn_off
+        device_id: 9468ca7adacf9a166cc414fab119bd21
+        entity_id: light.innr_gu10_3
+        domain: light
+      else:
+      - type: turn_off
+        device_id: d685824419708b0e1feb3f5f637bfb66
+        entity_id: light.innr_gu10_1
+        domain: light
+      - type: turn_off
+        device_id: 077811316dc2a3cd82ca934119df20a5
+        entity_id: light.innr_gu10_2
+        domain: light
+      - type: turn_off
+        device_id: 9468ca7adacf9a166cc414fab119bd21
+        entity_id: light.innr_gu10_3
+        domain: light
+    mode: single
+  - id: '1655551501074'
+    alias: devices_remote_ikea_left
+    description: ''
+    trigger:
+    - platform: event
+      event_type: deconz_event
+      event_data:
+        id: tradfri_remote_control
+        event: 4002
+    action:
+    - if:
+      - condition: device
+        type: is_on
+        device_id: 7490c3f3ba16e00addc68b498a9018bf
+        entity_id: switch.aqara_interruptor
+        domain: switch
+      then:
+      - type: turn_on
+        device_id: d685824419708b0e1feb3f5f637bfb66
+        entity_id: light.innr_gu10_1
+        domain: light
+        brightness_pct: 100
+        flash: short
+      - type: turn_off
+        device_id: 077811316dc2a3cd82ca934119df20a5
+        entity_id: light.innr_gu10_2
+        domain: light
+      - type: turn_off
+        device_id: 9468ca7adacf9a166cc414fab119bd21
+        entity_id: light.innr_gu10_3
+        domain: light
+      else:
+      - type: turn_on
+        device_id: d685824419708b0e1feb3f5f637bfb66
+        entity_id: light.innr_gu10_1
+        domain: light
+        brightness_pct: 100
+        flash: short
+      - type: turn_off
+        device_id: 077811316dc2a3cd82ca934119df20a5
+        entity_id: light.innr_gu10_2
+        domain: light
+      - type: turn_off
+        device_id: 9468ca7adacf9a166cc414fab119bd21
+        entity_id: light.innr_gu10_3
+        domain: light
+    mode: single

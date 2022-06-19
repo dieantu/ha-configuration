@@ -1,0 +1,59 @@
+{
+    "version": 1,
+    "minor_version": 1,
+    "key": "cloud",
+    "data": {
+        "alexa_default_expose": [
+            "climate",
+            "cover",
+            "fan",
+            "humidifier",
+            "light",
+            "lock",
+            "scene",
+            "script",
+            "sensor",
+            "switch",
+            "vacuum",
+            "water_heater"
+        ],
+        "alexa_entity_configs": {},
+        "cloud_user": "f1b938ea255247eea160ecda05c09ebf",
+        "cloudhooks": {
+            "2cf0ab7d7f7e7e0aee983d429b4f908d15a045db1016d0658de830b2f580fe49": {
+                "webhook_id": "2cf0ab7d7f7e7e0aee983d429b4f908d15a045db1016d0658de830b2f580fe49",
+                "cloudhook_id": "735e1ff3a35d4881819f18dc1bb37853",
+                "cloudhook_url": "https://hooks.nabu.casa/gAAAAABirdSpzWdGUWbtK8OjI3NPahG7W9iKgXZlAAc70MfhdunrmwQ_slfJkj_3SW6xTVIRLZIJHQoaUXJXF4Co8NoRfcARdKWYnmHhrlV7EwE-QTxthZrmMaobWGc1adLN4IwaOZ8txPO1QXV_ant_Nxhdcpmz73OlVeQHW0WQ7b8U95DZ_Hk=",
+                "managed": true
+            },
+            "f3506fa92cb2b30aa72898da9c1156abbe6ffc2eba01f81ca4051a3712278971": {
+                "webhook_id": "f3506fa92cb2b30aa72898da9c1156abbe6ffc2eba01f81ca4051a3712278971",
+                "cloudhook_id": "73f018f0d2c646a4ac22452132ffe006",
+                "cloudhook_url": "https://hooks.nabu.casa/gAAAAABirzLwUfuwzcJaHdYR5SChOLmuYaGD-tWsuJ_Upv20XCBobUtRJD83kCiM5YtvN1eabWVI--DqSnHpdA6ymUsNbdOWXk-4GfwcA0TCL_495-OMlyUhWSE-nZ_tuoH2L9NjAVRtJSSrv60wcrvoFrijrpHOsOwT7WzoaQ3rN2nQTogzYsY=",
+                "managed": true
+            }
+        },
+        "alexa_enabled": true,
+        "google_enabled": true,
+        "remote_enabled": false,
+        "google_default_expose": [
+            "climate",
+            "cover",
+            "fan",
+            "humidifier",
+            "light",
+            "lock",
+            "scene",
+            "script",
+            "sensor",
+            "switch",
+            "vacuum",
+            "water_heater"
+        ],
+        "google_entity_configs": {},
+        "google_local_webhook_id": "3c2841dca02bf6047d80042463d4100d0c1259875f855ae4a1073d0f049d7ada",
+        "google_secure_devices_pin": null,
+        "remote_domain": "wi8y2026s3idgxj3ajt3zmdpblrltw8y.ui.nabu.casa",
+        "username": "4648428d-5324-4318-b4d1-623a053afefa"
+    }
+}

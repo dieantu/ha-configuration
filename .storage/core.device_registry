@@ -1,0 +1,1061 @@
+{
+    "version": 1,
+    "minor_version": 3,
+    "key": "core.device_registry",
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "d7866aae028b601d8a9132f41dfa1872"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "met"
+                    ]
+                ],
+                "manufacturer": "Met.no",
+                "model": "Forecast",
+                "name": "Forecast",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": "service",
+                "id": "c6fa62718260a052aac7f11f2f288373",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "https://www.met.no/en"
+            },
+            {
+                "config_entries": [
+                    "0343f6fe8c21aa9ed75474513f7d291b",
+                    "b808286681a775df4af7ded1e1a66ab9"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller:accessory-id",
+                        "B6:B9:B7:3B:DC:A6:aid:1"
+                    ],
+                    [
+                        "homekit_controller:serial-number",
+                        "518533201214352"
+                    ]
+                ],
+                "manufacturer": "Meross",
+                "model": "MSS210",
+                "name": "MSS210-37f9",
+                "sw_version": "4.2.6",
+                "hw_version": "4.0.0",
+                "entry_type": null,
+                "id": "69d7ee06bde57bd59754ba09ad818b56",
+                "via_device_id": null,
+                "area_id": "salon",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "fb7571267bf0f9740b910fa4af6c0a21"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hacs",
+                        "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd"
+                    ]
+                ],
+                "manufacturer": "hacs.xyz",
+                "model": "",
+                "name": "HACS",
+                "sw_version": "1.25.5",
+                "hw_version": null,
+                "entry_type": "service",
+                "id": "84c7eaece01b797dc857676bc2efb890",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "homeassistant://hacs"
+            },
+            {
+                "config_entries": [
+                    "d336884d92d51cc4eff9cc1f8a94f93c"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "0E0FAE9D-4DCE-4ED0-8616-2E37A64227FE"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone14,3",
+                "name": "Antu\u2019s iPhone",
+                "sw_version": "15.5",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "92f62ed074c5b32f0c65bdd853bb8b69",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "e69ffd313f808396456288f3e384c724"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "93d8aaaf4ebae9c4"
+                    ]
+                ],
+                "manufacturer": "Google",
+                "model": "Pixel 3 XL",
+                "name": "Pixel 3 XL",
+                "sw_version": "31",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "9803969993dca0fbcc79f40d47bb2fe0",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "a5752d15ec80acb3b6982f1e3485cb5a"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "e4:5f:01:3c:81:25"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": null,
+                "model": null,
+                "name": null,
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": null,
+                "id": "41c1b9f5ad20ddbedd16ec4a2eeff590",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "a5752d15ec80acb3b6982f1e3485cb5a"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "deconz",
+                        "00212E07826C"
+                    ]
+                ],
+                "manufacturer": "Dresden Elektronik",
+                "model": "deCONZ",
+                "name": "Phoscon-GW",
+                "sw_version": "2.17.0",
+                "hw_version": null,
+                "entry_type": "service",
+                "id": "792617de19e8f239ec61ce951d0153be",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "http://10.0.0.2:8080"
+            },
+            {
+                "config_entries": [
+                    "a5752d15ec80acb3b6982f1e3485cb5a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "ec:1b:bd:ff:fe:7d:9f:e8"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "deconz",
+                        "ec:1b:bd:ff:fe:7d:9f:e8"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "TRADFRI remote control",
+                "name": "TR\u00c5DFRI remote control",
+                "sw_version": "",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "f3193e7a714a8decd4732359f602e3c4",
+                "via_device_id": "792617de19e8f239ec61ce951d0153be",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "a5752d15ec80acb3b6982f1e3485cb5a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:17:88:01:08:6d:1f:c1"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "deconz",
+                        "00:17:88:01:08:6d:1f:c1"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "RWL021",
+                "name": "Hue Dimmer",
+                "sw_version": "6.1.1.28573",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "a5f16581c77b50dcedc44208ae7cf4fe",
+                "via_device_id": "792617de19e8f239ec61ce951d0153be",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "a5752d15ec80acb3b6982f1e3485cb5a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "54:ef:44:10:00:22:a6:51"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "deconz",
+                        "54:ef:44:10:00:22:a6:51"
+                    ]
+                ],
+                "manufacturer": "LUMI",
+                "model": "lumi.switch.n1aeu1",
+                "name": "Aqara Interruptor",
+                "sw_version": "01-29-2021",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "7490c3f3ba16e00addc68b498a9018bf",
+                "via_device_id": "792617de19e8f239ec61ce951d0153be",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "a5752d15ec80acb3b6982f1e3485cb5a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:15:8d:00:03:40:06:c4"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "deconz",
+                        "00:15:8d:00:03:40:06:c4"
+                    ]
+                ],
+                "manufacturer": "LUMI",
+                "model": "lumi.sensor_switch",
+                "name": "Switch Menjador Sof\u00e0",
+                "sw_version": "",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "b28e08769822bfd9d7ef74db2e880095",
+                "via_device_id": "792617de19e8f239ec61ce951d0153be",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "a5752d15ec80acb3b6982f1e3485cb5a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:12:4b:00:23:96:c4:06"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "deconz",
+                        "00:12:4b:00:23:96:c4:06"
+                    ]
+                ],
+                "manufacturer": "eWeLink",
+                "model": "WB01",
+                "name": "Switch Mini Sof\u00e0",
+                "sw_version": "",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "5565d974546b89e1bf1b2a09ea6f34cf",
+                "via_device_id": "792617de19e8f239ec61ce951d0153be",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "a5752d15ec80acb3b6982f1e3485cb5a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:15:8d:00:07:6a:c2:ef"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "deconz",
+                        "00:15:8d:00:07:6a:c2:ef"
+                    ]
+                ],
+                "manufacturer": "LUMI",
+                "model": "lumi.sensor_magnet.aq2",
+                "name": "Porta Habitaci\u00f3",
+                "sw_version": "20161128",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "2f2823c31f93be1eccc7f976a2a70748",
+                "via_device_id": "792617de19e8f239ec61ce951d0153be",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "a5752d15ec80acb3b6982f1e3485cb5a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:15:8d:00:05:2d:d4:ae"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "deconz",
+                        "00:15:8d:00:05:2d:d4:ae"
+                    ]
+                ],
+                "manufacturer": "LUMI",
+                "model": "lumi.sensor_magnet.aq2",
+                "name": "Porta Garatge",
+                "sw_version": "20161128",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "9c99f2a9b13ac5ee2d247db6c7fbc030",
+                "via_device_id": "792617de19e8f239ec61ce951d0153be",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "a5752d15ec80acb3b6982f1e3485cb5a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:15:8d:00:03:a4:99:fb"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "deconz",
+                        "00:15:8d:00:03:a4:99:fb"
+                    ]
+                ],
+                "manufacturer": "LUMI",
+                "model": "lumi.sensor_motion",
+                "name": "Sensor Passad\u00eds",
+                "sw_version": "",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "b41c6ab32cf9e9e5df5833990d756dea",
+                "via_device_id": "792617de19e8f239ec61ce951d0153be",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "a5752d15ec80acb3b6982f1e3485cb5a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:15:8d:00:03:a4:99:d1"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "deconz",
+                        "00:15:8d:00:03:a4:99:d1"
+                    ]
+                ],
+                "manufacturer": "LUMI",
+                "model": "lumi.sensor_motion",
+                "name": "Sensor Moviment Habitacio",
+                "sw_version": "",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "3aa288568d4ae30d15a193cb27e1fac3",
+                "via_device_id": "792617de19e8f239ec61ce951d0153be",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "a5752d15ec80acb3b6982f1e3485cb5a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:15:8d:00:08:08:fc:3c"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "deconz",
+                        "00:15:8d:00:08:08:fc:3c"
+                    ]
+                ],
+                "manufacturer": "LUMI",
+                "model": "lumi.vibration.aq1",
+                "name": "Timbre de Casa",
+                "sw_version": "20180130",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "b901fe6ba3b93f647425a338da53d379",
+                "via_device_id": "792617de19e8f239ec61ce951d0153be",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "a5752d15ec80acb3b6982f1e3485cb5a"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "deconz",
+                        "00212E07826C-/groups/1"
+                    ]
+                ],
+                "manufacturer": "Dresden Elektronik",
+                "model": "deCONZ group",
+                "name": "Menjador",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": null,
+                "id": "af0800a55bc973b3086c568635f063e6",
+                "via_device_id": "792617de19e8f239ec61ce951d0153be",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "a5752d15ec80acb3b6982f1e3485cb5a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:15:bc:00:36:00:0f:fc"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "deconz",
+                        "00:15:bc:00:36:00:0f:fc"
+                    ]
+                ],
+                "manufacturer": "frient A/S",
+                "model": "AQSZB-110",
+                "name": "Sensor Qualitat d'Aire",
+                "sw_version": "4.0.1",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "9ced4748efc1d8923715941a9639841c",
+                "via_device_id": "792617de19e8f239ec61ce951d0153be",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "a5752d15ec80acb3b6982f1e3485cb5a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:21:2e:ff:ff:07:82:6c"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "deconz",
+                        "00:21:2e:ff:ff:07:82:6c"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "PHDL00",
+                "name": "Daylight",
+                "sw_version": "1.0",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "876f5608a6644b600030e798d3a03931",
+                "via_device_id": "792617de19e8f239ec61ce951d0153be",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "a5752d15ec80acb3b6982f1e3485cb5a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:12:4b:00:23:b4:7e:be"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "deconz",
+                        "00:12:4b:00:23:b4:7e:be"
+                    ]
+                ],
+                "manufacturer": "eWeLink",
+                "model": "TH01",
+                "name": "Menjador",
+                "sw_version": "",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "f723ea92cedf35f79fd1af39e436bc06",
+                "via_device_id": "792617de19e8f239ec61ce951d0153be",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "a5752d15ec80acb3b6982f1e3485cb5a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "ec:1b:bd:ff:fe:0f:ac:01"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "deconz",
+                        "ec:1b:bd:ff:fe:0f:ac:01"
+                    ]
+                ],
+                "manufacturer": "Heiman",
+                "model": "TS0201",
+                "name": "Sensor Habitaci\u00f3 papa",
+                "sw_version": "",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "2c6b72fc0464d03a7509ce8cb495fcd7",
+                "via_device_id": "792617de19e8f239ec61ce951d0153be",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "a5752d15ec80acb3b6982f1e3485cb5a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:17:88:01:0b:2d:f0:07"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "deconz",
+                        "00:17:88:01:0b:2d:f0:07"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "LWU001",
+                "name": "hue lightbulb 1",
+                "sw_version": "1.55.7_r28193",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "a3ff760022d251eca4144a56851f60bf",
+                "via_device_id": "792617de19e8f239ec61ce951d0153be",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "a5752d15ec80acb3b6982f1e3485cb5a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:17:88:01:0c:30:40:30"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "deconz",
+                        "00:17:88:01:0c:30:40:30"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "LWU001",
+                "name": "Hue Escala 1",
+                "sw_version": "1.76.10",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "700ff1943d6de0e0ef56a23aeff85406",
+                "via_device_id": "792617de19e8f239ec61ce951d0153be",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "a5752d15ec80acb3b6982f1e3485cb5a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:17:88:01:0c:30:6d:6d"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "deconz",
+                        "00:17:88:01:0c:30:6d:6d"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "LWU001",
+                "name": "Hue Escala 2",
+                "sw_version": "1.76.10",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "5462b7180afb6d89eb739c137e41fe18",
+                "via_device_id": "792617de19e8f239ec61ce951d0153be",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "a5752d15ec80acb3b6982f1e3485cb5a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "c4:98:86:00:00:06:f1:2d"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "deconz",
+                        "c4:98:86:00:00:06:f1:2d"
+                    ]
+                ],
+                "manufacturer": "innr",
+                "model": "RS 226",
+                "name": "innr gu10 1",
+                "sw_version": "2.03.01",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "d685824419708b0e1feb3f5f637bfb66",
+                "via_device_id": "792617de19e8f239ec61ce951d0153be",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "a5752d15ec80acb3b6982f1e3485cb5a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:17:88:01:0c:35:89:fb"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "deconz",
+                        "00:17:88:01:0c:35:89:fb"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "LWU001",
+                "name": "hue lightbulb 2",
+                "sw_version": "1.76.10",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "1e8b5dcee6421066e3623be16b90bdb0",
+                "via_device_id": "792617de19e8f239ec61ce951d0153be",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "a5752d15ec80acb3b6982f1e3485cb5a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "c4:98:86:00:00:06:29:78"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "deconz",
+                        "c4:98:86:00:00:06:29:78"
+                    ]
+                ],
+                "manufacturer": "innr",
+                "model": "RS 226",
+                "name": "innr gu10 2",
+                "sw_version": "2.03.01",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "077811316dc2a3cd82ca934119df20a5",
+                "via_device_id": "792617de19e8f239ec61ce951d0153be",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "a5752d15ec80acb3b6982f1e3485cb5a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "c4:98:86:00:00:07:0c:e3"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "deconz",
+                        "c4:98:86:00:00:07:0c:e3"
+                    ]
+                ],
+                "manufacturer": "innr",
+                "model": "RS 226",
+                "name": "innr gu10 3",
+                "sw_version": "2.03.01",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "9468ca7adacf9a166cc414fab119bd21",
+                "via_device_id": "792617de19e8f239ec61ce951d0153be",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "a5752d15ec80acb3b6982f1e3485cb5a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:17:88:01:0c:35:89:fa"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "deconz",
+                        "00:17:88:01:0c:35:89:fa"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "LWU001",
+                "name": "hue lightbulb 3",
+                "sw_version": "1.76.10",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "a79c5191b0ae598f0d01435ca7ef94e4",
+                "via_device_id": "792617de19e8f239ec61ce951d0153be",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "a5752d15ec80acb3b6982f1e3485cb5a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:17:88:01:06:ff:40:91"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "deconz",
+                        "00:17:88:01:06:ff:40:91"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "LCT024",
+                "name": "Hue Play 1",
+                "sw_version": "1.88.1",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "de48e480ef32da51a729975536b88b03",
+                "via_device_id": "792617de19e8f239ec61ce951d0153be",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "a5752d15ec80acb3b6982f1e3485cb5a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:17:88:01:06:ff:40:44"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "deconz",
+                        "00:17:88:01:06:ff:40:44"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "LCT024",
+                "name": "Hue Play 2",
+                "sw_version": "1.88.1",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "f60dfed07bbdb48e39ec8770f816536c",
+                "via_device_id": "792617de19e8f239ec61ce951d0153be",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "a5752d15ec80acb3b6982f1e3485cb5a"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "deconz",
+                        "00212E07826C-/groups/2"
+                    ]
+                ],
+                "manufacturer": "Dresden Elektronik",
+                "model": "deCONZ group",
+                "name": "Habitaci\u00f3",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": null,
+                "id": "5b79120a24588915bf045740f52c325b",
+                "via_device_id": "792617de19e8f239ec61ce951d0153be",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "a5752d15ec80acb3b6982f1e3485cb5a"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "deconz",
+                        "00212E07826C-/groups/6"
+                    ]
+                ],
+                "manufacturer": "Dresden Elektronik",
+                "model": "deCONZ group",
+                "name": "Escala",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": null,
+                "id": "8c9eada2e31154fb80735d09b1785661",
+                "via_device_id": "792617de19e8f239ec61ce951d0153be",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "844f200d344f57628799f09087e21f0a"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "09:b2:8b:41:6c:1e"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "homekit",
+                        "844f200d344f57628799f09087e21f0a",
+                        "homekit.bridge"
+                    ]
+                ],
+                "manufacturer": "Home Assistant",
+                "model": "HomeKit Accessory",
+                "name": "HASS Bridge:21064 (MSS210-37f9)",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": "service",
+                "id": "af1c35ba348aca4b4099d9dedfac6fad",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "da62bef20f776354df47d8c5cd663206"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "94:6a:b0:8d:ad:ee"
+                    ],
+                    [
+                        "mac",
+                        "94:6a:b0:8d:ad:ef"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "yamaha_musiccast",
+                        "946AB08DADEE"
+                    ]
+                ],
+                "manufacturer": "Yamaha Corporation",
+                "model": "WX-051",
+                "name": "Yamaha",
+                "sw_version": 1.92,
+                "hw_version": null,
+                "entry_type": null,
+                "id": "8b9a242de7df452b2676855cbd11f40c",
+                "via_device_id": null,
+                "area_id": "dormitorio",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "686c08c7517f5bc67df4c51af374f9a0"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "ipp",
+                        "cfe92100-67c4-11d4-a45f-e0bb9e615b90"
+                    ]
+                ],
+                "manufacturer": "EPSON",
+                "model": "ET-2820 Series",
+                "name": "EPSON ET-2820 Series",
+                "sw_version": "05.15.XE03L8",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "2235a4cf0927efb5c6f4a5f26d4f3dc7",
+                "via_device_id": null,
+                "area_id": "dormitorio",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "a9fee239defffb46b202711530573074"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "002B5B39-3358-4C8B-A62D-71EF8AE0EEB0"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPad6,3",
+                "name": "iPad de: Antoni",
+                "sw_version": "15.5",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "f0e2a26e532d5ce0d9e607af04e7cc1c",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            }
+        ],
+        "deleted_devices": []
+    }
+}

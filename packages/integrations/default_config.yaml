@@ -1,0 +1,122 @@
+---
+## default_config ##
+# Default configuration of Home-Assistant
+
+automation: !include ../../automations.yaml
+
+# The Home Assistant Cloud allows you to quickly integrate your local Home
+# Assistant with various cloud services like Amazon Alexa and Google Assistant.
+# Learn more https://www.home-assistant.io/integrations/cloud/
+cloud:
+
+# The config integration is designed to display panels in the frontend to
+# configure and manage parts of Home Assistant.
+# Learn more https://www.home-assistant.io/integrations/config/
+config:
+
+# The dhcp “DHCP Discovery” integration will watch the network for DHCP
+# requests for supported devices and services. Discovered integrations will
+# show up in the discovered section on the integrations page in the
+# configuration panel.
+# Learn more https://www.home-assistant.io/integrations/dhcp/
+dhcp:
+
+# Home Assistant allows you to get on top of your energy use with its home
+# energy management feature. Gain new insights, optimize your solar panel
+# production, plan energy usage and save money.
+# Learn more https://www.home-assistant.io/docs/energy
+# energy:
+
+# This offers the official frontend to control Home Assistant.
+# Learn more https://www.home-assistant.io/integrations/frontend/
+frontend:
+  themes: !include_dir_merge_named ../../themes/
+
+# The history integration will track everything that is going on within Home
+# Assistant and allows the user to browse through it.
+# Learn more https://www.home-assistant.io/integrations/history/
+history:
+
+# The Image integration allows Home Assistant to handle image assets in Home
+# Assistant, for example, the profile photos of your systems account.
+# Learn more https://www.home-assistant.io/integrations/image/
+image:
+
+# The logbook integration provides a different perspective on the history of
+# your house by showing all the changes that happened to your house in reverse
+# chronological order.
+# Learn more https://www.home-assistant.io/integrations/logbook/
+logbook:
+
+# This offers a map on the frontend to display the location of tracked devices.
+# Learn more https://www.home-assistant.io/integrations/map/
+map:
+
+# The Media Source integration platform allows integrations to expose media for
+# use inside Home Assistant through the Media Browser panel or through
+# supported media players like Google Cast.
+# Learn more https://www.home-assistant.io/integrations/media_source/
+media_source:
+
+# The Mobile App integration allows Home Assistant mobile apps to easily
+# integrate with Home Assistant.
+# Learn more https://www.home-assistant.io/integrations/mobile_app/
+mobile_app:
+
+# This integration handles redirects from the My Home Assistant service.
+# Learn more https://www.home-assistant.io/integrations/my/
+my:
+
+# The person integration allows connecting device tracker entities to one or
+# more person entities.
+# Learn more https://www.home-assistant.io/integrations/person/
+person:
+
+
+scene: !include ../../scenes.yaml
+
+script: !include ../../scripts.yaml
+
+
+# The ssdp “Simple Service Discovery Protocol” (part of UPnP) integration will
+# scan the network for supported devices and services.
+# Learn more https://www.home-assistant.io/integrations/ssdp/
+ssdp:
+
+# The stream integration provides a way to proxy live streams through Home
+# Assistant.
+# Learn more https://www.home-assistant.io/integrations/stream/
+stream:
+
+# The sun integration will use your current location to track if the sun is
+# above or below the horizon.
+# Learn more https://www.home-assistant.io/integrations/sun/
+sun:
+
+# The System Health integration provides an API to offer information on the
+# system and its components.
+# Learn more https://www.home-assistant.io/integrations/system_health/
+system_health:
+
+# Learn more https://www.home-assistant.io/integrations/tag/
+tag:
+
+# The USB Discovery integration will detect newly connected USB devices.
+# Learn more https://www.home-assistant.io/integrations/usb/
+usb:
+
+# Webhook trigger fires when a web request is made to the webhook endpoint:
+# /api/webhook/<webhook_id>. The webhook endpoint is created automatically
+# when you set it as the webhook_id in an automation trigger.
+# Learn more https://www.home-assistant.io/integrations/webhook/
+webhook:
+
+# The zeroconf integration will scan the network for supported devices and
+# services.
+# Learn more https://www.home-assistant.io/integrations/zeroconf/
+zeroconf:
+
+# Zones allow you to specify certain regions on earth (for now).
+# Learn more https://www.home-assistant.io/integrations/zone/
+zone:
+
