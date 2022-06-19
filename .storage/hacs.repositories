@@ -18,7 +18,7 @@
             "category": "integration",
             "description": "HACS gives you a powerful UI to handle downloads of all your custom needs.",
             "domain": "hacs",
-            "downloads": 52918,
+            "downloads": 53108,
             "etag_repository": "W/\"f46d9875533484bc93f9900f9a0c161a34f4d907d3dc12f2e00a70ee6575c427\"",
             "full_name": "hacs/integration",
             "last_updated": "2022-06-15T07:22:32Z",
@@ -43,7 +43,7 @@
             "pushed_at": "2022-06-15T07:22:32",
             "releases": true,
             "version_installed": "1.25.5",
-            "last_fetched": 1655654350.679108
+            "last_fetched": 1655661557.1307
         },
         "191831638": {
             "repository_manifest": {
@@ -3709,7 +3709,7 @@
             "pushed_at": "2022-05-22T08:23:16",
             "releases": true,
             "version_installed": "3.6.0",
-            "last_fetched": 1655654350.764683
+            "last_fetched": 1655661557.337836
         },
         "159025199": {
             "repository_manifest": {},
@@ -6289,7 +6289,7 @@
             "pushed_at": "2022-05-22T11:58:02",
             "releases": true,
             "version_installed": "1.5.3",
-            "last_fetched": 1655654350.684627
+            "last_fetched": 1655661557.078271
         },
         "202220932": {
             "repository_manifest": {},
@@ -7145,7 +7145,7 @@
             "open_issues": 29,
             "pushed_at": "2022-05-27T18:41:09",
             "version_installed": null,
-            "last_fetched": 1655654350.467271
+            "last_fetched": 1655661556.910204
         },
         "255366214": {
             "repository_manifest": {
@@ -9701,7 +9701,7 @@
             "category": "plugin",
             "description": "Minimalistic media card for Home Assistant Lovelace UI",
             "domain": "",
-            "downloads": 22547,
+            "downloads": 22576,
             "etag_repository": "W/\"17ff272bc4aab09c503b0b43c55f660d3db683db34739a6e1c806f193a62fcd0\"",
             "full_name": "kalkih/mini-media-player",
             "last_updated": "2022-06-09T19:11:16Z",
@@ -9728,7 +9728,7 @@
             "pushed_at": "2022-06-09T19:11:16",
             "releases": true,
             "version_installed": "v1.16.4",
-            "last_fetched": 1655654350.523852
+            "last_fetched": 1655661556.980813
         },
         "172998062": {
             "repository_manifest": {},
